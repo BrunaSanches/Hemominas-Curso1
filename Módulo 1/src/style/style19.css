@@ -28,7 +28,7 @@ img{
     width:45%;
     height:45vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items:left;
     flex-direction: column;
     position: absolute;
