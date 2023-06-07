@@ -56,7 +56,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>10</title>
+					<title>Pilares do PBM </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>	
 
@@ -71,7 +71,7 @@
 				</item>
 			
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Continuação - OMS sobre a relevância da anemia em relação ao PBM</title>
+					<title>Anemia e complicações no pós-operatório</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>
 
