@@ -59,10 +59,17 @@ table{
     width: 100%;
     height: auto;
     color: white;
+    border-collapse:collapse;
 }
-td, th{
-    border: 1px solid white;
+td{
+    border: 2px solid white;
     padding: 15px;
+    font-size: 15px;
+}
+th{
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 18px;
 }
 
 @media screen and (max-width:996px) {

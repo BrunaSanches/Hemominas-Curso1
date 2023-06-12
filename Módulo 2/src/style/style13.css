@@ -33,17 +33,22 @@ img{
 
     flex-direction: column;
 }
+table{
+    border: 1px solid #595959;
+    width: 80%;
+    height: auto;
+    color: #595959;
+    border-collapse:collapse;
+}
 td{
-    text-align: justify;
-    font-size:18px;
-    color: #7F7F7F;
-    font-weight:400;
+    border: 2px solid #595959;
+    padding: 15px;
+    font-size: 15px;
 }
 th{
-    text-align: justify;
-    font-size:22px;
-    color: #595959;
-    font-weight:400; 
+    border: 2px solid #595959;
+    padding: 15px;
+    font-size: 18px;
 }
 
 ul{
@@ -64,7 +69,10 @@ h2{
         height: 100vh;
     }
     td{
-        font-size:15px;
+        font-size:14px;
+    }
+    th{
+        font-size:15px; 
     }
     h2{
         font-size:22px;
