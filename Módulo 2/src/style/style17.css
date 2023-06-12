@@ -58,11 +58,7 @@ td{
     color:white;
     font-size:18px;
 }
-th{
-    border: 1px solid white;
-    color:white;
-    font-size:18px;
-}
+
 
 
 
@@ -72,9 +68,7 @@ th{
     td{
         font-size: 15px;
     }
-    th{
-        font-size: 16px;
-    }
+   
    
     
 }
