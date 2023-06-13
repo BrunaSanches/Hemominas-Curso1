@@ -39,40 +39,15 @@ p{
     color: #7F7F7F;
     font-weight:400;
 }
-li{
-    text-align: justify;
-    font-size:20px;
-    color: #7F7F7F;
-    font-weight:400;
-}
-ul{
-    padding: 1em;
-}
+
 
 h2{
-    color:#7F7F7F;
+    color:#595959;
     font-size:28px;
     
     font-weight:bold;
 }
 
-#importante{
-    border-radius: 10px;
-    background-color: #C00F0C;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    height: auto;
-    padding: 5px;
-    
-}
-#importante p{
-    text-align: justify;
-    font-size:15px;
-    color: white;
-    font-weight:600;
-    padding: 5px;
-}
 
 @media screen and (max-width:996px) {
     img{
@@ -84,9 +59,6 @@ h2{
     }
     h2{
         font-size:22px;
-    }
-    #importante p{
-        font-size:14px;
     }
     
 }
