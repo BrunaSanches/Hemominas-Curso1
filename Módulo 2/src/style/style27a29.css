@@ -42,6 +42,7 @@ h2{
     font-weight:bold;
 }
 
+
 #checkbox1:checked + #texto1 {
     display: block;
 
@@ -55,7 +56,18 @@ h2{
 input{
     display: none;
 }
+input.check[type="checkbox"] {
+    display: none;
+  }
+.hover label {
+    cursor: pointer;
 
+  }
+ 
+  input.check[type="checkbox"]:checked + label {
+    background-color:#AB0003; 
+    border-color: #AB0003;
+  }
 #respostas{
     width: 100%;
     height: 50vh;
@@ -130,3 +142,20 @@ input{
         
         
     }
+
+    
+@media screen and (max-width:996px) {
+    
+   
+    h2{
+        font-size:18px;
+    }
+    p{
+        font-size:15px;
+    }
+    label{
+        font-size:18px;
+    }
+
+    
+}
