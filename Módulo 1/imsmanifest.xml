@@ -7,105 +7,104 @@
 	<metadata/>
 	<organizations default="contabil">
 	   <organization identifier="contabil">
-	   <title>Gestão de Custos Hospitalares</title>
+	   <title>Curso</title>
 			<item identifier="MOD_1" isvisible="true">
 				<title>Módulo I</title>
 
 				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
-					<title>Módulo 1</title>
+					<title>1</title>
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Vídeo - Apresentação</title>
+					<title>2</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Objetivos de Aprendizagem</title>
+					<title>3</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
-					<title>Introdução – Patient Blood Management (PBM)</title>
+					<title>4</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Patient Blood Management (PBM)</title>
+					<title>5</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>História - Patient Blood Management (PBM)</title>
+					<title>6</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Sobre - Patient Blood Management (PBM)</title>
+					<title>7</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Infográfico</title>
+					<title>8</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Ações do Macro e do Micro</title>
+					<title>9</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Pilares do PBM </title>
+					<title>10</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Primeiro Pilar</title>
+					<title>11</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
-					<title>OMS sobre a relevância da anemia em relação ao PBM</title>
+					<title>12</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
 				</item>
 			
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Anemia e complicações no pós-operatório</title>
+					<title>13</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
-					<title>Proposta - a anemia M. Muñoz & cols.</title>
+					<title>14</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Anemia durante a internação</title>
+					<title>15</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Segundo Pilar</title>
+					<title>16</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Terceiro Pilar - PÓS-OPERATÓRIO</title>
+					<title>17</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
-					<title>Terceiro Pilar - Medidas para Suporte</title>
+					<title>18</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>Fim</title>
+					<title>19</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>	
 
-				
 
 		</item>
 
@@ -122,7 +121,7 @@
 			<file href="src/includes/apiwrapper.js"/>
 			<file href="src/includes/scofunctions.js"/>
 			<file href="src/includes/conteudo.js"/>
-			<file href="src/style1.js"/>
+			
 		</resource>
 		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina1.html">
 		   <file href="src/pagina1.html"/>
@@ -219,8 +218,6 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 			
-		
-
-
+	
 	</resources>
 </manifest>
