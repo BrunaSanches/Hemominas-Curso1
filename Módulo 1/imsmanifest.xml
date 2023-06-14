@@ -46,8 +46,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Stakeholders – Patient Blood Management (PBM)
-					</title>
+					<title>Stakeholders – Patient Blood Management (PBM)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
