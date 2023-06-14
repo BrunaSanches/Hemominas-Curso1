@@ -70,13 +70,34 @@ h2{
     width:100%;
     height:65vh;
 }
+
+
+#importante{
+    border-radius: 10px;
+    background-color: #0070C0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    
+}
+
+#importante p{
+    text-align: justify;
+    font-size:16px;
+    color: white;
+
+    padding: 5px;
+}
 @media screen and (max-width:996px) {
     
    
     h2{
         font-size:22px;
     }
-    p{
+    p, #importante p{
         font-size:15px;
     }
 
