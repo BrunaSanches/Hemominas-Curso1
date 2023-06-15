@@ -19,7 +19,7 @@
 					<title>Introdução</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
-
+				<!-- pagina extra -->
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
 					<title>Utilização da Eritropoietina Humana Recombinante (rHuEPO)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
@@ -93,7 +93,7 @@
 		   <file href="src/pagina2.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
-		
+		<!-- pagina extra -->
 		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
 		   <file href="src/pagina3.html"/>
 		   <dependency identifierref="INC"/>
