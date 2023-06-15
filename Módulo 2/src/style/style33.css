@@ -49,17 +49,22 @@ h2{
 }
 .textos{
     width:100%;
-    height:60vh;
+    height:70vh;
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-direction: column;
 }
 
 .textos p{
-    text-align: center;
+    text-align: justify;
     padding: 5px;
     font-size: 18px;
     color: #595959;
+}
+.textos img{
+    width:70%;
+    height:75vh; 
 }
 
 
