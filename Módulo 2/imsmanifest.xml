@@ -115,54 +115,48 @@
 				</item>
 			
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>Anemia e complicações no pós-operatório</title>
+					<title>Ferro Intravenoso</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_23" identifierref="RES_23" isvisible="true">
-					<title>Ferro Intravenoso</title>
+					<title>Diagrama</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_22</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_24" identifierref="RES_24" isvisible="true">
-					<title>Diagrama</title>
+					<title>Correção da Anemia</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_23</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_25" identifierref="RES_25" isvisible="true">
-					<title>Correção de Anemia</title>
+					<title>Sugestão Terapêutica – Sem Anemia</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_24</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_26" identifierref="RES_26" isvisible="true">
-					<title>Sugestão Terapêutica – Sem Anemia</title>
+					<title>Deficiência de ácido fólico</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_25</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_27" identifierref="RES_27" isvisible="true">
-					<title>Deficiência de ácido fólico</title>
+					<title>Deficiência de B12</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_26</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_28" identifierref="RES_28" isvisible="true">
-					<title>Deficiência de B12</title>
+					<title>Avaliação do paciente no pré-operatório</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_27</adlcp:prerequisites>
 				</item>	
 				<item identifier="MOD_1_SCO_29" identifierref="RES_29" isvisible="true">
-					<title>Avaliação do paciente no pré-operatório</title>
+					<title>Referências Bibliográficas</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
-				</item>	
-
-				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
 					<title>Fim do Curso</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
-
 				
 
 
