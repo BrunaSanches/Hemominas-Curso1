@@ -134,7 +134,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
+		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
 		   <file href="src/pagina15.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
