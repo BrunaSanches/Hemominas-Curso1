@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#esquerda{
+    width:70%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+#direita{
+    width:30%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#direita img{
+    width: 100%;
+    height: 100vh;
+}
+#esquerda img{
+    width:80%;
+    height: 90vh;
+}
+#esquerda-acima{
+    width: 50%;
+    height:70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    flex-direction: column;
+    position: absolute;
+}
+#texto{
+    width:70%;
+    height:40vh;
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+#esquerda p{
+    text-align: left;
+    font-size:15px;
+    color: #595959;
+    font-weight:400;
+}
+@media screen and (max-width:1024px) {
+    
+  
+    #esquerda p{
+        font-size:13px;
+    }
+   
+}
