@@ -41,7 +41,7 @@ img{
 }
 #direita{
     width:60%;
-    height:100vh; 
+    height:80vh; 
     display: flex;
     justify-content:space-evenly;
     flex-direction: column;
