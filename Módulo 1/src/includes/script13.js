@@ -5,13 +5,16 @@ function verificarRespostas1() {
     var respostasCorretas1 = [
       ["V", "V", "V", "V"]
     ];
+    var respostasCorretas2 = [
+      ["v", "v", "v", "v"]
+    ];
 
     for (var i = 0; i < respostas.length; i++) {
       var resposta = respostas[i].value;
       var linha = Math.floor(i / 4);
       var coluna = i % 4;
 
-      if (resposta === respostasCorretas1[linha][coluna]) {
+      if (resposta === respostasCorretas1[linha][coluna] || resposta === respostasCorretas2[linha][coluna]) {
         respostas[i].style.backgroundColor = "#cfc"; // Marcar como correta
         corretas++;
       } else {
