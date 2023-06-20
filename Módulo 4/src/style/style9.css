@@ -13,7 +13,7 @@
 }
 .container {
     width: 100%;
-    height: 22%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 
   }
 
-.palavras{
+#conteudo{
     width:100%;
     height:75vh;
     display: flex;
@@ -43,40 +43,124 @@ p{
     padding-left: 2em;
     padding-right: 2em;
     color:#595959;
-    font-size:20px;
+    font-size:18px;
    text-align: justify;
 }
+li{
+   
+    color:#595959;
+    font-size:18px;
+   text-align: justify;
+}
+ol{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 h2{
     color:#595959;
     font-size:25px;
     font-weight:bold;
 }
-#esquerda{
-    width:60%;
-    height:75vh;
+h3{
+    color:#C00000;
+    font-size:22px;
+    font-weight:bold;
+}
+.esquerda{
+    width:50%;
+    height:80vh;
     display: flex;
     justify-content: space-around;
     align-items:center;
     flex-direction: column;
 }
-#direita{
-    width:40%;
-    height:75vh;
+.direita{
+    width:50%;
+    height:80vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
-#direita img{
-    width:100%;
-    height:65vh;
+
+table, tr, td{
+    border:1px solid #595959;
+    background-color:white;
+    border-collapse: collapse;
+    border-radius:10px;
 }
+td{
+    font-weight:bold;
+    font-family:monospace;
+    font-size:25px;
+    color:black;
+    padding: 5px;
+
+}
+td:hover{
+    background-color:#f9d387;
+    cursor:pointer;
+}
+.selecionada, .encontrada, .errado{
+    transition:.2s linear;
+}
+.selecionada{
+    background-color:#FE891E;
+}
+.encontrada{
+    background-color:#02A26D;
+}
+.errado{
+    background-color:#C00000;
+}
+#iniciar{
+    padding:5%;
+    background-color:lightgray;
+}
+#jogo{
+    text-align:center;
+}
+#btnPlay{
+    margin:auto;
+    display:block;
+}
+#parabens{
+    margin:auto;
+    text-align:center;
+    color:#C00000;
+    transition:.2s linear 2s;
+}
+#btnVoltar{
+    margin:auto;
+}
+button{
+    border:1px solid white;
+    outline:none;
+    background-color:#C00000;
+    transition:.2s linear;
+    font-weight:bold;
+    font-size: 18px;
+    padding:10px;
+    color:white;
+    border-radius: 10px;
+}
+button:hover{
+    border:1px solid lightblue;
+    outline:none;
+    color:lightblue;
+    background-color:white;
+}
+
 @media screen and (max-width:996px) {
     
    
     h2{
         font-size:22px;
     }
-    p{
+    p, li, h3{
+        font-size:15px;
+    }
+    table td{
         font-size:15px;
     }
 
