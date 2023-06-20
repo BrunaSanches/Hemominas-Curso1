@@ -43,13 +43,13 @@ p{
     padding-left: 2em;
     padding-right: 2em;
     color:#595959;
-    font-size:18px;
+    font-size:16px;
    text-align: justify;
 }
 li{
    
     color:#595959;
-    font-size:18px;
+    font-size:16px;
    text-align: justify;
 }
 ol{
@@ -71,7 +71,7 @@ h3{
     width:50%;
     height:80vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items:center;
     flex-direction: column;
 }
