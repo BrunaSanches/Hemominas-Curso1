@@ -107,8 +107,13 @@ input.check[type="checkbox"] {
     color: #404040;
     padding-left: 1em;
     margin-top: 5px;
+    font-weight: bold;
 }
-
+ 
+input.check[type="checkbox"]:checked + label {
+    background-color:#AB0003; 
+    border-color: #AB0003;
+  }
 label {
  
     border: 2px solid #A6A6A6;
