@@ -16,53 +16,65 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Introdução</title>
+					<title>Vídeo de Boas Vindas</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
-				<!-- pagina extra -->
+				
+
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Utilização da Eritropoietina Humana Recombinante (rHuEPO)</title>
+					<title>Introdução</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
-
+				
 				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
-					<title>Sobre a Decisão</title>
+					<title>Utilização da Eritropoietina Humana Recombinante (rHuEPO)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>A Decisão de Utilização </title>
+					<title>Sobre a Decisão</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Decisão sobre a utilização da Eritropoietina Humana Recombinante(rHuEPO)</title>
+					<title>A Decisão de Utilização </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Continuação - Decisão sobre a utilização da Eritropoietina Humana Recombinante(rHuEPO)</title>
+					<title>Decisão sobre a utilização da Eritropoietina Humana Recombinante(rHuEPO)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Eficácia da Eritropoietina</title>
+					<title>Continuação - Decisão sobre a utilização da Eritropoietina Humana Recombinante(rHuEPO)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Fim do Módulo</title>
+					<title>Eficácia da Eritropoietina</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Referências Bibliográficas</title>
+					<title>Vídeo - Resumo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
-				</item>	
+				</item>
+
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Referências Bibliográficas</title>
+					<title>Fim do Módulo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>	
 
 
@@ -86,6 +98,11 @@
 		</resource>
 		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina1.html">
 		   <file href="src/pagina1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video4.html">
+		   <file href="src/video4.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
@@ -121,6 +138,11 @@
 
 		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina8a12.html">
 		   <file href="src/pagina8a12.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video5.html">
+		   <file href="src/video5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
