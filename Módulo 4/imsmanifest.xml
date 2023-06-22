@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<manifest identifier="SingleCourseManifest" version="1.2"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd                     http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata/>
+	<organizations default="contabil">
+	   <organization identifier="contabil">
+	   <title>Patient Blood Management (PBM)</title>
+			<item identifier="MOD_1" isvisible="true">
+				<title>Módulo 4</title>
+
+				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
+					<title>Módulo 4</title>
+				</item>
+
+				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
+					<title>Vídeo de Boas-Vindas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
+				</item>s
+
+				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
+					<title>Vídeo de Apresentação</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
+					<title>Conceito e Princípios da Hemodiluição Normovolêmica Aguda</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
+					<title>Cirurgia sem Hemodiluição</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
+					<title>Você sabe o que é a Hemodiluição Normovolêmica Aguda?</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
+					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
+					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
+					<title>Possíveis dificuldades relacionadas à Hemodiluição Normovolêmica Aguda</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
+					<title>Técnica da Hemodiluição Normovolêmica Aguda</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
+					<title>Fim do Módulo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
+				</item>	
+
+		
+				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
+				</item>	
+
+
+		</item>
+
+				
+			  <metadata>
+			  <schema>ADL SCORM</schema>
+			  <schemaversion>1.2</schemaversion>
+			  <location>indefinido.xml</location>
+			</metadata>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="INC" adlcp:scormtype="asset" type="webcontent">
+			<file href="src/includes/apiwrapper.js"/>
+			<file href="src/includes/scofunctions.js"/>
+			<file href="src/includes/conteudo.js"/>
+			
+		</resource>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina1.html">
+		   <file href="src/pagina1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video6.html">
+		   <file href="src/video6.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina2.html">
+		   <file href="src/pagina2.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		
+		<resource identifier="RES_4" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
+		   <file href="src/pagina3.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
+		   <file href="src/pagina4.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		   <file href="src/pagina5.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_7" type="webcontent" adlcp:scormtype="sco" href="src/pagina6.html">
+		   <file href="src/pagina6.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
+		   <file href="src/pagina7.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_9" type="webcontent" adlcp:scormtype="sco" href="src/pagina8.html">
+		   <file href="src/pagina8.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
+		   <file href="src/pagina9.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+			<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
+		   <file href="src/pagina10.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
+		   <file href="src/pagina11.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		
+			
+	
+	</resources>
+</manifest>
