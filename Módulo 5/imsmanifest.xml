@@ -9,61 +9,91 @@
 	   <organization identifier="contabil">
 	   <title>Patient Blood Management (PBM)</title>
 			<item identifier="MOD_1" isvisible="true">
-				<title>Módulo 4</title>
+				<title>Módulo 5</title>
 
 				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
-					<title>Módulo 4</title>
+					<title>Módulo 5</title>
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Vídeo de Apresentação</title>
+					<title>Vídeo de Boas-Vindas</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Conceito e Princípios da Hemodiluição Normovolêmica Aguda</title>
+					<title>Apresentação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
-					<title>Cirurgia sem Hemodiluição</title>
+					<title>Recuperação de Sangue Autólogo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Você sabe o que é a Hemodiluição Normovolêmica Aguda?</title>
+					<title>Regulamentada pela Portaria Consolidada Nº 5 MS 09/2017</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<title>Recuperar Volume de Sangue</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<title>Princípios Técnicos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Possíveis dificuldades relacionadas à Hemodiluição Normovolêmica Aguda</title>
+					<title>Princípios Técnicos - Processo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Técnica da Hemodiluição Normovolêmica Aguda</title>
+					<title>Atividade - Recuperação de Sangue Autólogo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Fim do Módulo</title>
+					<title>Alguns Riscos Potenciais do Procedimento</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>	
 
 		
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Referências Bibliográficas</title>
+					<title>Como melhorar resultados?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
+					<title>OUTROS ASPECTOS LEGAIS RELACIONADOS A PRÁTICA DE TÉCNICAS DE CONSERVAÇÃO DE SANGUE AUTÓLOGO</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
+					<title>Fim do Módulo</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
+					<title>Podcast</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>	
 
 
@@ -89,57 +119,86 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/pagina2.html">
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video7.html">
+		   <file href="src/video7.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+		
+
+		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina2.html">
 		   <file href="src/pagina2.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
+		<resource identifier="RES_4" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
 		   <file href="src/pagina3.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_4" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
+		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
 		   <file href="src/pagina4.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
 		   <file href="src/pagina5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina6.html">
+		<resource identifier="RES_7" type="webcontent" adlcp:scormtype="sco" href="src/pagina6.html">
 		   <file href="src/pagina6.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_7" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
+		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
 		   <file href="src/pagina7.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina8.html">
+		<resource identifier="RES_9" type="webcontent" adlcp:scormtype="sco" href="src/pagina8.html">
 		   <file href="src/pagina8.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_9" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
+		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
 		   <file href="src/pagina9.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-			<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
+		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
 		   <file href="src/pagina10.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
+		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
 		   <file href="src/pagina11.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
+		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina12.html">
+		   <file href="src/pagina12.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
+		   <file href="src/pagina13.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
+		   <file href="src/pagina14.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
 		
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
+		   <file href="src/pagina15.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
+		   <file href="src/pagina16.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
 			
 	
 	</resources>
