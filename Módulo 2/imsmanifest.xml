@@ -154,19 +154,16 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_28</adlcp:prerequisites>
 				</item>	
 				<item identifier="MOD_1_SCO_30" identifierref="RES_30" isvisible="true">
-					<title>Referências Bibliográficas</title>
+					<title>Fim do Módulo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_29</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_31" identifierref="RES_31" isvisible="true">
-					<title>Fim do Curso</title>
+					<title>Referências Bibliográficas</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_30</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_31" identifierref="RES_32" isvisible="true">
-					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_31</adlcp:prerequisites>
-				</item>
+				
 				
 
 
@@ -342,10 +339,6 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_32" type="webcontent" adlcp:scormtype="sco" href="src/pagina36.html">
-		   <file href="src/pagina36.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-	
+		
 	</resources>
 </manifest>

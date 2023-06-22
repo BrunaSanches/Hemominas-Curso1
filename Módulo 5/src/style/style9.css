@@ -75,10 +75,10 @@ h2{
 @media screen and (max-width:996px) {
  
     h2{
-        font-size:18px;
+        font-size:20px;
     }
     p, li{
-        font-size:13px;
+        font-size:18px;
     }
     
 }
