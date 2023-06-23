@@ -50,7 +50,7 @@ h2 {
 }
 
 #linha {
-    width: 80%;
+    width: 90%;
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -69,6 +69,7 @@ h2 {
 #checkbox8:checked + label + .texto-resposta,
 #checkbox9:checked + label + .texto-resposta {
     display: block;
+   
 }
 #texto1,
         #texto2,
@@ -81,6 +82,7 @@ h2 {
         #texto9 {
             display: none;
             color: #404040;
+        
         }
 
 input {
@@ -102,12 +104,13 @@ input.check[type="checkbox"] {
 .texto-resposta {
     
     font-family: 'Open Sans', sans-serif;
-    text-align:center;
+    text-align:left;
     font-size: 18px;
     color: #404040;
     padding-left: 1em;
     margin-top: 5px;
     font-weight: bold;
+   
 }
  
 input.check[type="checkbox"]:checked + label {
@@ -123,6 +126,7 @@ label {
     color: white;
     padding: 3px;
     border-radius: 10px;
+    text-align: center;
 }
 
 label:hover {
