@@ -16,16 +16,16 @@
 }
 #texto{
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #atv{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
