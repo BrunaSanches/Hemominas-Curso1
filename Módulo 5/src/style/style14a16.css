@@ -10,11 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
 }
 #container{
     width: 90%;
-    height: 90vh;
+    height:100vh;
     display: flex;
     justify-content: space-evenly;
     
@@ -24,7 +24,7 @@
 }
 li{
     text-align: justify;
-    font-size:15px;
+    font-size:10px;
     color: #595959;
     font-weight:400;
 }
@@ -34,7 +34,7 @@ ul{
 }
 h2{
     color: #2F5597;
-    font-size:22px;
+    font-size:20px;
     text-align:left;
     padding-left: 2em;
     padding-right: 2em;
@@ -43,10 +43,10 @@ h2{
 @media screen and (max-width:996px) {
 
     li{
-        font-size:12px;
+        font-size:10px;
     }
     h2{
-        font-size:18px;
+        font-size:15px;
     }
     
 }

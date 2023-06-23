@@ -86,17 +86,7 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>	
 
-				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
-				</item>	
-
-				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
-				</item>	
-
-
+				
 		</item>
 
 				
@@ -190,16 +180,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
-		   <file href="src/pagina15.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
-		   <file href="src/pagina16.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-			
+		
 	
 	</resources>
 </manifest>
