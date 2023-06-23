@@ -12,7 +12,19 @@
     align-items: center;
     background-color: #F4F4F4;
     background-image: linear-gradient(330deg, #4472C4,#F4F4F4, white);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
 #direita{
     width:50%;
     height: 100vh;
@@ -39,7 +51,9 @@
     align-items:center;
     flex-direction: column;
     position: absolute;
-
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 
 #cor{

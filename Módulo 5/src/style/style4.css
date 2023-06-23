@@ -10,6 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 
 }
 #direita{
@@ -19,7 +22,17 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
+
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
 #texto{
     width:60%;
     height: 70vh;
@@ -27,6 +40,9 @@
     justify-content:space-around;
     align-items:flex-start;
     flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 h2{
     color:#595959;
