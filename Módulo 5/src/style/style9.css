@@ -23,27 +23,32 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+.textos{
+    width:100%;
+    height:50vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
 .palavras{
     width:100%;
     height:70vh;
     display: flex;
-    display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    flex-direction: column;
 }
 #direita{
-    width:100%;
-    height:40vh;
-    display: flex;
+    width:40%;
+    height:50vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
 #esquerda{
-    width:100%;
-    height:60vh;
-    display: flex;
+    width:60%;
+    height:50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,15 +61,25 @@ li{
     font-weight: bold;
     padding: 1em;
 }
-
+#frase{
+    width:100%;
+    height:20vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
 
 p{
-    text-align: left;
-    font-size:22px;
-    color: #2F5597;
-    font-weight:600;
-    font-weight: bold; 
+    text-align: center;
+    font-size:30px;
+    color: #992828;
+    font-weight: 1000; 
     padding-top: 1em;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20em;
+    animation: type 4s steps(60, end); 
 }
 h2{
     color:black;
@@ -72,13 +87,41 @@ h2{
     font-weight:bold;
 
 }
+
+  
+  p:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: black;
+  }
+
+
 @media screen and (max-width:996px) {
  
     h2{
-        font-size:20px;
+        font-size:23px;
     }
     p, li{
-        font-size:18px;
+        font-size:25px;
     }
     
 }
