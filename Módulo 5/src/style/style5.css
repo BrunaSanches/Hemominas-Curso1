@@ -10,7 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #F4F4F4;
+    background-image: linear-gradient(330deg, #4472C4,#F4F4F4, white);
 }
 #direita{
     width:50%;
@@ -19,12 +20,16 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background-color: #404040;
+
+   
 }
 #direita img{
     width:90%;
     height: 70vh;
-    opacity: 0.9;
+    border: 5px solid #4472C4;
+    border-radius: 10px;
+    opacity: 0.95;
+
 }
 #esquerda-acima{
     width:50%;
@@ -34,6 +39,7 @@
     align-items:center;
     flex-direction: column;
     position: absolute;
+
 }
 
 #cor{
@@ -44,7 +50,7 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background-color: #C00F0C;
+    
 }
 
 
@@ -54,18 +60,19 @@ h2{
     font-weight:bold;
 }
 p{
+    padding-left: 7em;
     color:black;
     font-size:16px;
-    text-align: justify;
+    text-align: left;
     
 }
 #esquerda img{
-    width:85%;
+    width:100%;
     height: 100vh;
 }
 
 #texto{
-    width:50%;
+    width:80%;
     height: 50vh;
     display: flex;
     justify-content:center;
@@ -78,7 +85,8 @@ p{
     display: flex;
     justify-content:flex-start;
     align-items: flex-start;
-    background-color: #404040;
+
+    
 
 }
 
