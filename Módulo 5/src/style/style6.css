@@ -26,14 +26,14 @@
 }
 #textos{
     width:80%;
-    height:70vh;
+    height:100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items:center;
     flex-direction: column;
 }
 .palavras img{
-    width: 50%;
+    width:80%;
     height: 80vh;
 }
 p{
@@ -41,6 +41,7 @@ p{
     font-size:20px;
     color: black;
     font-weight:400;
+    padding-left: 2em;
 }
 
 
@@ -53,10 +54,7 @@ h2{
 
 
 @media screen and (max-width:996px) {
-    img{
-        width: 100%;
-        height: 100vh;
-    }
+
     p{
         font-size:15px;
     }
