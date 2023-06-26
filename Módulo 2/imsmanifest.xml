@@ -16,7 +16,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Vídeo de Boas Vindas</title>
+					<title>Apresentação Módulo II</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
