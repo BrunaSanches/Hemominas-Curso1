@@ -9,14 +9,14 @@
 	   <organization identifier="contabil">
 	   <title>Patient Blood Management (PBM)</title>
 			<item identifier="MOD_1" isvisible="true">
-				<title>Módulo 5</title>
+				<title>Módulo V</title>
 
 				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
-					<title>Módulo 5</title>
+					<title>Módulo V</title>
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Vídeo de Boas-Vindas</title>
+					<title>Apresentação Módulo V</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
