@@ -25,36 +25,29 @@ img{
     position: absolute;
 }
 #container{
-    width:55%;
+    width:50%;
     height:80vh;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
- 
+    background-color: #E7E6E6;
     flex-direction: column;
+    opacity: 0.9;
 }
 p{
     text-align: left;
     font-size:20px;
     color: #595959;
     font-weight:400;
+    padding: 2em;
 }
-h2{
-    color:#595959;
-    font-size:28px;
-    text-transform: uppercase;
-    font-weight:bold;
-}
-
 
 @media screen and (max-width:996px) {
    
     p{
-        font-size:17px;
+        font-size:18px;
     }
+    
    
-    h2{
-        font-size:22px;
-    }
-  
+    
 }
