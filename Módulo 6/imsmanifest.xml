@@ -72,28 +72,33 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Reversão dos anticoagulantes inibidores do Xa: Rivaroxabana, Apixabana, Endoxabana</title>
+					<title>Sobre o Estudo de Caso</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
-					<title>ANNEXA-4</title>
+					<title>Reversão dos anticoagulantes inibidores do Xa: Rivaroxabana, Apixabana, Endoxabana</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Preparações e Doses</title>
+					<title>ANNEXA-4</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Fim do Módulo</title>
+					<title>Preparações e Doses</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Referências Bibliográficas</title>
+					<title>Fim do Módulo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
+				</item>	
+
+				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
+					<title>Referências Bibliográficas</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>	
 
 
@@ -176,27 +181,32 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
+			<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagExtra1.html">
+		   <file href="src/pagExtra1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
 		   <file href="src/pagina14.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina15a19.html">
+		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina15a19.html">
 		   <file href="src/pagina15a19.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina20a24.html">
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina20a24.html">
 		   <file href="src/pagina20a24.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina25.html">
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina25.html">
 		   <file href="src/pagina25.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina26.html">
+		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina26.html">
 		   <file href="src/pagina26.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
