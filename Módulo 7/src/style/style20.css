@@ -28,13 +28,37 @@ img{
 
 
 #esquerda{
-    width:50%;
+    width:70%;
     height: 100vh;
     display: flex;
     justify-content:space-evenly;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
   
+}
+#caixa{
+    width:80%;
+    height: 30vh; 
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.topicos{
+    width:40%;
+    height: 30vh; 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+   
+}
+.topicos img{
+    width:50%;
+    height: auto; 
+}
+.topicos p{
+    text-align: center;
 }
 
 #fundo{
@@ -52,16 +76,27 @@ img{
     font-size:25px;
     font-weight:bold;
     }
-    li{
+   p{
      color:#595959;
     font-size:20px;
-    text-align: justify;
+   
         
     }
+    #fundo{
+        border: 1px solid #2F5597;
+        background-color:#2F5597;
+        border-color: #2F5597;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 0.5em;
+        text-align: center;
+       
+       }
 
 @media screen and (max-width:996px) {
    
-    li{
+    p, .topicos p, #fundo{
         font-size:18px;
     }
     h2{
