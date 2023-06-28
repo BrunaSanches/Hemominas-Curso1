@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    height: 100vh;
+    opacity: 2;
+}
+.palavras{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: absolute;
+}
+p{
+    color: #595959;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#caixa{
+    width:70%;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #404040;
+    text-align: justify;
+    flex-direction: column;
+    
+}
+
+#checkbox1:checked + #texto1 {
+    display: block;
+
+}
+#checkbox2:checked + #texto2 {
+    display: block;
+}
+#checkbox3:checked + #texto3 {
+    display: block;
+}
+#checkbox4:checked + #texto4 {
+    display: block;
+}
+#checkbox5:checked + #texto5 {
+    display: block;
+}
+input{
+    display: none;
+}
+input.check[type="checkbox"] {
+    display: none;
+  }
+.hover label {
+    cursor: pointer;
+
+  }
+ 
+  input.check[type="checkbox"]:checked + label {
+    background-color:#2F5597; 
+    border-color: #2F5597;
+  }
+#respostas{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D9D9D9;
+
+}
+     #texto1 {
+        display: none;
+        color:#404040;
+    }
+    #texto2 {
+        display: none;
+        color:#404040;
+    }
+    #texto3{
+        display: none;
+        color:#404040;
+    }
+    #texto4 {
+        display: none;
+        color:#404040;
+    }
+    #texto5{
+        display: none;
+        color:#404040;
+    }
+     #table1{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+    #linha{
+        width: 90%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+     
+    }
+    .hover{
+        width:80%;
+    }    
+    label{
+        width:100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #A6A6A6;
+        background-color: #A6A6A6;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    
+     }
+     label:hover{
+        background-color:#2F5597;
+        border-color: #2F5597;
+     }
+    .texto-resposta{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;   
+        text-align: justify;
+        font-size: 15px;
+        color: #404040;
+        padding:2em;
+        
+        
+    }
+   #instrucao{
+    border: 1px solid #2F5597;
+    background-color:#2F5597;
+    border-color: #2F5597;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+   
+   }
+    
+@media screen and (max-width:996px) {
+    
+   
+    p{
+        font-size:15px;
+    }
+    label{
+        font-size:15px;
+    }
+   #instrucao{
+        font-size:15px;
+    }
+
+    
+}

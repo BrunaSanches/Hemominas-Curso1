@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    height: 100vh;
+    opacity: 2;
+}
+.palavras{
+    width:80%;
+    height:100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    position: absolute;
+}
+
+
+#esquerda{
+    width:70%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+  
+}
+
+#fundo{
+    border: 1px solid #2F5597;
+    background-color:#2F5597;
+    border-color: #2F5597;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 0.5em;
+   
+   }
+   h2{
+    color:#595959;
+    font-size:25px;
+    font-weight:bold;
+    }
+    li{
+     color:#595959;
+    font-size:20px;
+    text-align: justify;
+    padding: 0.5em;
+        
+    }
+    p{
+        color:black;
+       font-size:15px;
+       text-align: justify;
+       font-weight: bold;
+       padding: 0.5em;
+    }
+    .img-container {
+        width:100%;
+        height: 30vh;
+        position: relative;
+        cursor: pointer;
+      }
+      
+      .img-container img {
+        width:30%; /* Tamanho inicial da imagem */
+        height: 80%;
+        transition: width 0.3s ease;
+        border-radius: 5px;
+        border: 1px solid #2F5597;
+      }
+      
+      /* Estilos para expandir a imagem */
+      .img-container.expanded img {
+        width: 35%; /* Tamanho máximo para ocupar a tela */
+        height: 53vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+      
+@media screen and (max-width:996px) {
+   
+    li{
+        font-size:18px;
+    }
+    h2{
+        font-size:22px;
+    }
+    .img-container.expanded img {
+        width: 55%; /* Tamanho máximo para ocupar a tela */
+        height: 53vh;
+    }
+    
+}
