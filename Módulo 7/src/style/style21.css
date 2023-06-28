@@ -74,8 +74,8 @@ img{
       }
       
       .img-container img {
-        width:30%; /* Tamanho inicial da imagem */
-        height: 80%;
+        width:40%; /* Tamanho inicial da imagem */
+        height: 90%;
         transition: width 0.3s ease;
         border-radius: 5px;
         border: 1px solid #2F5597;
@@ -83,8 +83,8 @@ img{
       
       /* Estilos para expandir a imagem */
       .img-container.expanded img {
-        width: 35%; /* Tamanho máximo para ocupar a tela */
-        height: 53vh;
+        width: 45%; /* Tamanho máximo para ocupar a tela */
+        height: 63vh;
         position: fixed;
         top: 0;
         left: 0;
@@ -102,9 +102,14 @@ img{
     h2{
         font-size:22px;
     }
+
+    .img-container img {
+        width:70%; /* Tamanho inicial da imagem */
+        height: 100%;
+    }
     .img-container.expanded img {
-        width: 55%; /* Tamanho máximo para ocupar a tela */
-        height: 53vh;
+        width: 70%; /* Tamanho máximo para ocupar a tela */
+        height: 80vh;
     }
     
 }

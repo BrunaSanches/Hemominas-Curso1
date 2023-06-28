@@ -96,7 +96,25 @@ p{
         font-size:18px;
     }
     p, li{
-        font-size:15px;
+        font-size:18px;
     }
+
+    .img-container img {
+        width:90%; /* Tamanho inicial da imagem */
+        height: 50vh;
+    }
+
+    .img-container.expanded img {
+        width: 95%; /* Tamanho máximo para ocupar a tela */
+        height:100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+    
     
 }
