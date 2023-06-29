@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+.container img{
+    width: 100%;
+    height: 30vh;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+.container{
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.textos{
+    width:100%;
+    height:70vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.palavras{
+    width:100%;
+    height:70vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+    font-size:16px;
+    color: #595959;
+    font-weight:bold;
+    padding: 1em;
+}
+
+.img-container {
+    width:100%;
+    height: 70vh;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-container img {
+    width:70%; /* Tamanho inicial da imagem */
+    height: 60vh;
+    transition: width 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid #2F5597;
+  }
+  
+  /* Estilos para expandir a imagem */
+  .img-container.expanded img {
+    width: 65%; /* Tamanho máximo para ocupar a tela */
+    height:100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+  }
+
+
+@media screen and (max-width:996px) {
+ 
+    h2{
+        font-size:18px;
+    }
+    p, li{
+        font-size:18px;
+    }
+
+    .img-container img {
+        width:90%; /* Tamanho inicial da imagem */
+        height: 50vh;
+    }
+
+    .img-container.expanded img {
+        width: 95%; /* Tamanho máximo para ocupar a tela */
+        height:100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+    
+    
+}

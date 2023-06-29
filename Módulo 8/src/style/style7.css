@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    height: 100vh;
+    opacity: 2;
+}
+.palavras{
+    width:80%;
+    height:100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: absolute;
+}
+#outro{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+  
+}
+
+#esquerda{
+    width:70%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-direction: column;
+  
+}
+h3{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    }
+
+   h2{
+    color:#595959;
+    font-size:28px;
+    font-weight:bold;
+    }
+   li{
+     color:#595959;
+    font-size:20px;
+   padding-top: 0.5em;
+   
+    }
+    #dica{
+        width: 70%;
+        height: 30vh;
+        padding: 2em;
+        background-color: #0070C0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #dica li{
+        color:white;
+        font-size:16px;
+    }
+
+
+@media screen and (max-width:996px) {
+   
+    li{
+        font-size:18px;
+    }
+    #dica li{
+        font-size:15px;
+    }
+    h2{
+        font-size:22px;
+    }
+    h3{
+        font-size:20px;
+    }
+   
+  
+    
+}
