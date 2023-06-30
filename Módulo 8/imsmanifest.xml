@@ -46,7 +46,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Metaálises - antes e pós a Introdução do PBM</title>
+					<title>Metanálises - antes e pós a Introdução do PBM</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
