@@ -1,0 +1,271 @@
+/* Default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Container */
+  #container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+  }
+  
+  /* Home section */
+  #home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    background-color:#fff;
+	justify-content: center;
+	align-items: center;
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+  }
+  
+  /* Flip book */
+  .flip-book {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	perspective: 1500px;
+	border: 1px #0000;
+    
+  
+  }
+  
+  .flip {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+  }
+  
+  .front {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .conversa{
+    width: 90%;
+    height:90vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    position: absolute;
+
+}
+
+/* LIVRO */
+
+.check{
+	display: none;
+}
+.book{
+   
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+/* Next and back buttons */
+.next-btn,
+.back-btn {
+  position: absolute;
+  bottom: 13px;
+  cursor: pointer;
+  color: white;
+  background-color: #C50A04;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.next-btn {
+  right: 13px;
+}
+
+.back-btn {
+  left: 13px;
+}
+
+
+
+#p1{
+	z-index: 2;
+}
+#p2{
+	z-index:1;
+}
+
+
+
+
+
+#c1:checked ~ .flip-book #p1{
+	
+	z-index: 1;
+}
+#c2:checked ~ .flip-book #p2{
+
+	z-index: 2;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+ 
+
+
+
+
+button {
+	background-color: #0096bb;
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+button:hover{
+	transform: translateX(7px) scale(1.2);
+}
+
+
+
+  /* Pagination */
+  input[type="radio"]:checked ~ .flip-book .front {
+	z-index: 1;
+  }
+  input[type="radio"] ~ .flip-book .front {
+	position: absolute;
+	width: 100%;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+  }
+  
+  
+  /* Animation */
+  @keyframes fadeInAnimation {
+	0% {
+	  opacity: 0.2;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+/* pagina 15 */
+#boneco1{
+   
+        width: 60%;
+        height: 90vh;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
+    
+  
+}
+#boneco2{
+   
+    width:20%;
+    height:70vh;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+
+}
+#esquerda{
+    width: 50%;
+    height: 90vh;
+    position: absolute;
+    left: 43%;
+    bottom: 7%;
+}
+#esquerda-acima{
+    width: 70%;
+    height: 45vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#esquerda-acima p{
+    color:#595959;
+    font-size: 16px;
+}
+.quadro{
+    width: 90%;
+    height: 70vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#texto{
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#texto p, #texto li{
+    color: #595959;
+    font-size: 18px;
+    text-align: left;
+}
+
+@media screen and (max-width:996px) {
+    
+   
+    #texto p{
+        font-size:13px;
+    }
+    #esquerda-acima p{
+        font-size: 12px;
+    }
+    td{
+        font-size:13px;
+    }
+    
+
+    
+}
