@@ -7,54 +7,80 @@
     <meta http-equiv="x-ua-compatible" content="IE=10">
     <meta name="keywords" content="moodle, " />
     <link rel="stylesheet" href="style/style16.css">
-    <title>Plasma Fresco Congelado</title>
+    <title>Tromboelastometria</title>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="unloadPage();doLMSSetValue('cmi.core.lesson_status',value);">
     <div class="home">
-        <div class="container">
-            <h2>Recuperação Intraoperatória</h2>
-            <p>A literatura sobre o custo-eficiência sobre o uso de recuperação intraoperatória de células é ampla. Contudo, é escassa a literatura referente à comparação entre o uso de Recuperação intraoperatória pelo uso de Cell Saver e o custo da transfusão de hemocomponentes.
-            </p>
-            <p>Na maioria dos estudos levantados, o uso do cell saver (considerando todo o aparato necessário para seu funcionamento bem como manutenção, insumos e pessoal) justificou-se em substituição de, pelo menos, uma unidade de Concentrado de Hemácias. 
-            </p>
-            <div id="central">
-                <div id="img1">
-                    <img src="imagens/Imagem14-1.jpg" alt="">
-                    <p id="fonte">Ashworth, Klein, 2010</p>
-                </div>
-                <div id="img2">
-                    <img src="imagens/Imagem14-2.jpg" alt="">
-                </div>
-                <div id="texto1">
-                    <h3>€$170,00 Cell Saver<br>
-                        Justificou-se em substituição de 3 CH (€$57,00)<br>
-                        (Markovic et al, 2009)
-                        </h3>
-                    <h3>€$380,00 Cell Saver<br>
-                        Justificou-se em substituição de 1 CH (€$450,00)
-                        (Kostantinou et al, 2011)
-                        </h3>
-                </div>
-                <div id="texto2">
-                    <h3>€$196,00 Cell Saver<br>
-                        Justificou-se em substituição de 1 CH (€$230,00)<br>
-                        (Tawfick  et al, 2008)
-                        </h3>
-                    <h3>A$83,00 (Dolares Australianos) Cell Saver<br>
-                        Justificou-se em substituição de 1 CH (A$143,00)<br>
-                        (Gardner et al, 2000)
-                        </h3>
-                </div>
-            </div>
-        </div>
         <div id="botao">
             <a href="pagina13.html">Voltar para as opções</a>
         </div>
+        <h2>Ferro Venoso</h2>
+        <div class="container">
+         
+            <div id="esquerda">
+                <p>De acordo com a Agência Nacional de Vigilância Sanitária, o preço máximo de venda do Sacarato de Hidróxido Férrico é R$12,06 a ampola de 5ML (já considerando os 18% de ICMS) para o tratamento da anemia.
+                </p>
+                <p>A lista completa com o preço dos medicamentos pode ser acessada no site da ANVISA.
+                </p>
+                <p><b>Clique nas imagens para ampliar!</b></p>
+                <div id="expansao">
+                    <div class="img-container">
+                        <img src="imagens/16-1.png" alt="Imagem" onclick="expandirImagem(this)">
+                   </div> 
+                   <div class="img-container">
+                    <img src="imagens/16-2.jpg" alt="Imagem" onclick="expandirImagem(this)">
+               </div> 
+                </div>
+
+        </div> 
+           <img id="linha" src="imagens/img16.png" alt="">
+            <div id="direita">
+                <p>Em maio de 2023, a carboximaltose férrica foi incorporada pelo SUS para o tratamento de pacientes com anemia. 
+                </p>
+                <ul>
+                    <li>Seu valor máximo de R$550,77 e R$581,61 para os dois laboratórios autorizados a comercializar este medicamente no Brasil, é substancialmente elevado aos outros medicamentos já comumente utilizados e adquiridos pelos estabelecimentos. Por sua vez, o seu valor tende a reduzir com o aumento da demanda.
+                    </li>
+                    <li>O relatório da CONITEC estimou um valor incremental de R$29,56 em relação ao medicamento atualmente disponível no SUS, o SHF, para atingir a normalização da Hb, definida como a obtenção de Hb sérica igual ou superior a 12 g/dL em mulheres e 13 g/dL em homens.
+                    </li>
+                </ul>
+         
+                <table>
+                    <tr >
+                        <td id="vermelhos">Substância</td>
+                        <td id="vermelhos">Laboratório</td>
+                        <td id="vermelhos">Produto</td>
+                        <td id="vermelhos">Apresentação</td>
+                        <td id="vermelhos">Classe Terapêutica</td>
+                        <td id="vermelhos">PF 18%</td>
+                    </tr>
+                    <tr>
+                        <td>Carboximaltose Ferrica</td>
+                        <td>Takeda Pharma LTDA.</td>
+                        <td>Ferinject</td>
+                        <td>50MG/ML SOL INJ IV CX 1 <br> AMP VD TRANS X 10 ML</td>
+                        <td>B3A1 - FERRO PURO</td>
+                        <td>5570,77</td>
+                    </tr>
+                    <tr>
+                        <td>Carboximaltose Ferrica</td>
+                        <td>Blanver Farmoquimica e Farmacêutica S.A.</td>
+                        <td>Ferinject</td>
+                        <td>50MG/ML SOL INJ IV CX 1 <br>FA VD TRANS X 10 M</td>
+                        <td>B3A1 - FERRO PURO</td>
+                        <td>581,61</td>
+                    </tr>
+                    
+                </table>
+                <p id="fonte">ANVISA, valores atualizadas em 02 de junho de 2023;CONITEC, 2023.</p>
+            </div>
+        </div>
+       
 
 
     </div>
     <script type="text/javascript" src="includes/conteudo.js"></script>
     <script type="text/javascript" src="includes/apiwrapper.js"></script>
     <script type="text/javascript" src="includes/scofunctions.js"></script> 
+    <script type="text/javascript" src="includes/script15.js"></script> 
 </body>
 </html>

@@ -148,9 +148,13 @@ p{
     
 @media screen and (max-width:996px) {
    
-   
     h2{
         font-size:18px;
     }
-  
+    li, p, td{
+      font-size: 12px;
+    }
+    a{
+      font-size:15px;
+    }
 }
