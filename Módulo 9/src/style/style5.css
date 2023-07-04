@@ -25,7 +25,7 @@ img{
     position: absolute;
 }
 #container{
-    width:55%;
+    width:70%;
     height:80vh;
     display: flex;
     justify-content: space-evenly;
