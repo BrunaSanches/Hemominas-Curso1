@@ -120,8 +120,8 @@ p{
     h2{
         font-size:18px;
     }
-    li, p{
-      font-size: 12px;
+    li, #texto1, #texto2, p{
+      font-size: 17px;
     }
     a{
       font-size:15px;
@@ -134,7 +134,5 @@ p{
         width:70%;
         height:40vh;
     }
-    td{
-        font-size: 10px;
-      }
+ 
 }

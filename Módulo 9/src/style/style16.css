@@ -123,8 +123,8 @@ ul{
   
   /* Estilos para expandir a imagem */
   .img-container.expanded img {
-    width: 55%; /* Tamanho máximo para ocupar a tela */
-    height:80vh;
+    width: 95%; /* Tamanho máximo para ocupar a tela */
+    height:85vh;
     position: fixed;
     top: 0;
     left: 0;
