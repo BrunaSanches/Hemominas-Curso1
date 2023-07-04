@@ -84,7 +84,7 @@ ul{
     border: 1px solid #cac8c8;
     background-color:  #AB0C02;
     color: white;
-    padding:5px;
+    padding:3px;
     font-size: 13px;
     text-align: center;
     
@@ -99,11 +99,13 @@ ul{
     h2{
         font-size:18px;
     }
-    li, p, td{
-      font-size: 12px;
+    li, p{
+      font-size: 16px;
     }
     a{
       font-size:15px;
     }
-  
+    td{
+      font-size: 11px;
+    }
 }
