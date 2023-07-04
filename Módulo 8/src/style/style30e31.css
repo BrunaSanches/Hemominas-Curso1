@@ -65,8 +65,8 @@
     width: 90%;
     height:90vh;
     display: flex;
-    align-items:flex-end;
-    justify-content: flex-end;
+    align-items:center;
+    justify-content: center;
     position: absolute;
 
 }
@@ -189,8 +189,8 @@ button:hover{
 /* pagina 15 */
 #boneco1{
    
-        width: 60%;
-        height: 90vh;
+        width: 70%;
+        height: 100vh;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
         animation-fill-mode: backwards;
@@ -211,8 +211,8 @@ button:hover{
     width: 50%;
     height: 90vh;
     position: absolute;
-    left: 43%;
-    bottom: 10%;
+    left: 25%;
+    bottom: 11%;
 }
 #esquerda-acima{
     width: 70%;
@@ -226,7 +226,7 @@ button:hover{
 }
 #esquerda-acima p{
     color:#595959;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 .quadro{
@@ -299,7 +299,7 @@ h2{
         font-size:13px;
     }
     #esquerda-acima p{
-        font-size: 12px;
+        font-size: 16px;
     }
     td{
         font-size:13px;

@@ -70,6 +70,15 @@
     position: absolute;
 
 }
+.conversa1{
+  width: 90%;
+  height:90vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: absolute;
+
+}
 
 /* LIVRO */
 
@@ -190,8 +199,8 @@ button:hover{
 /* pagina 15 */
 #boneco1{
    
-        width: 60%;
-        height: 90vh;
+        width: 70%;
+        height:100vh;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
         animation-fill-mode: backwards;
@@ -212,8 +221,8 @@ button:hover{
     width: 50%;
     height: 90vh;
     position: absolute;
-    left: 43%;
-    bottom: 7%;
+    left: 25%;
+    bottom: 11%;
 }
 #esquerda-acima{
     width: 70%;
@@ -227,7 +236,7 @@ button:hover{
 }
 #esquerda-acima p{
     color:#595959;
-    font-size: 16px;
+    font-size: 18px;
 }
 .quadro{
     width: 90%;
@@ -256,16 +265,21 @@ button:hover{
 @media screen and (max-width:996px) {
     
    
-    #texto p{
-        font-size:13px;
+    #texto p, #texto li{
+        font-size:15px;
     }
     #esquerda-acima p{
-        font-size: 12px;
+        font-size: 18px;
     }
     td{
         font-size:13px;
     }
-    
+    #boneco1{
+   
+      width: 70%;
+      height: 90vh;
+    }
+
 
     
 }

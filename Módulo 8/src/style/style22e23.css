@@ -144,7 +144,7 @@ input.check[type="checkbox"] {
         color: red;
     }
    h2{
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     padding:1em;
    }
@@ -155,6 +155,12 @@ input.check[type="checkbox"] {
     }
     ul{
         padding-left: 2em;
+    }
+    h1{
+        font-size:20px;
+        padding:1em;
+        color: #2ECBFF;
+        text-shadow: #0866FF 0.2em 0.2em 0.3em;
     }
 @media screen and (max-width:996px) {
     
