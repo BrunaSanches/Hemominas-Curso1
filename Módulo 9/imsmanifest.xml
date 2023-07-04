@@ -61,7 +61,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Fluxo do Processo -Implantação sem e com Custos</title>
+					<title>Fluxo do Processo - Implantação sem e com Custos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>	
 
@@ -152,8 +152,8 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-			<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina11a12.html">
-		   <file href="src/pagina11a12.html"/>
+			<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina11e12.html">
+		   <file href="src/pagina11e12.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
