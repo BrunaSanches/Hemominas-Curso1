@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    height: 100vh;
+
+}
+.palavras{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    position: absolute;
+}
+
+h2{
+    width: 30%;
+    background-color: #AB0003;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    text-align: center;
+}
+h2 em{
+    font-weight: 400;
+}
+
+
+#checkbox1:checked + #texto1 {
+    display: block;
+
+}
+#checkbox2:checked + #texto2 {
+    display: block;
+}
+
+input{
+    display: none;
+}
+input.check[type="checkbox"] {
+    display: none;
+  }
+.hover label {
+    cursor: pointer;
+
+  }
+ 
+  input.check[type="checkbox"]:checked + label {
+    background-color:#2F5597; 
+    border-color:#2F5597; 
+  }
+#respostas{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+     #texto1 {
+        display: none;
+        color:#404040;
+
+    }
+    #texto2 {
+        display: none;
+        color:#404040;
+    }
+   
+    #linha{
+        width: 100%;
+        height:80vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+        
+     
+    }
+    .hover{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }    
+    label{
+        width:75%;
+        height: 7vh;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        text-align: center;
+        background-color:#2F5597;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        padding: 5px;
+    
+     }
+     label:hover{
+        background-color:#AB0C02;
+        border-color: #AB0C02;
+     }
+    .texto-resposta{
+        width: 60%;
+        height: auto;
+        font-size: 15px;
+     
+    }
+    p{
+        font-size: 16px;
+        color: #595959;
+        font-weight: bold;
+    }
+    #linha-resposta{
+        width: 85%;
+        height: 60vh;
+        display: flex;
+        align-items: center;  
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .itens{
+        width: 100%;
+        height: 6vh;
+        background-color: white;
+        border: 2px solid #2F5597;
+        color: #595959;
+        font-weight: bold;
+        font-size: 15px;
+        padding:10px;
+        display: flex;
+        align-items: center; 
+        
+       
+
+    }
+
+
+@media screen and (max-width:996px) {
+   
+    .itens{
+        font-size:14px;
+    }
+    h2, p{
+        font-size:16px;
+    }
+   
+  
+    
+}
