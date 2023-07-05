@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <meta name="keywords" content="moodle, " />
+    <link rel="stylesheet" href="style/style6.css">
+    <title>Reavaliar o paciente</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="fc_iniciaSCO();" onUnload="unloadPage();doLMSSetValue('cmi.core.lesson_status',value);">
+    <div class="home">
+        <img src="imagens/6.png" alt="">
+        <div class="palavras">
+                <div id="esquerda">
+                    <div id="outro">
+                       <p>Os softwares de administração de dados das agências transfusionais geralmente apresentam como outputs, relatórios diários/mensais de dados sobre as transfusões solicitadas e realizadas. 
+                        Veja abaixo um exemplo em forma de planilha de Excel.</p>
+                        <table>
+                            <tr>
+                                <td class="td"><b>Número da Solicitação</b></td>
+                                <td class="td"><b>Prescritor</b></td>
+                                <td class="td"><b>Unidade</b></td>
+                                <td class="td"><b>Data-Solicitada</b></td>
+                                <td class="td"><b>Hora-Solicitação</b></td>
+                                <td class="td"><b>Tipo de Solicitação</b></td>
+                                <td class="td"><b>Prontuário</b></td>
+                                <td class="td"><b>Nome do Paciente</b></td>
+                                <td class="td"><b>Sexo</b></td>
+                                <td class="td"><b>Idade</b></td>
+                                <td class="td"><b>Peso</b></td>
+                            </tr>
+                            <tr>
+                                <td>0001-2023</td>
+                                <td>Dr. João</td>
+                                <td>UTI</td>
+                                <td>01/01/2023</td>
+                                <td>00:40:00</td>
+                                <td>Urgente (a se realizar em até 03 horas)</td>
+                                <td>35624587</td>
+                                <td>Miguel Araújo</td>
+                                <td>M</td>
+                                <td>65</td>
+                                <td>71,2</td>
+                            </tr>
+                            <tr>
+                                <td>0002-2023</td>
+                                <td>Dr. João</td>
+                                <td>UTI</td>
+                                <td>01/01/2023</td>
+                                <td>01:50:00</td>
+                                <td>Urgente (a se realizar em até 03 horas)</td>
+                                <td>35624587</td>
+                                <td>Miguel Araújo</td>
+                                <td>M</td>
+                                <td>65</td>
+                                <td>71,2</td>
+                            </tr>
+                            <tr>
+                                <td>0003-2023</td>
+                                <td>Dra. Maria</td>
+                                <td>Internação</td>
+                                <td>01/01/2023</td>
+                                <td>07:35:00</td>
+                                <td>Programadora (eletiva)</td>
+                                <td>38569745</td>
+                                <td>Carlos Daniel</td>
+                                <td>M</td>
+                                <td>57</td>
+                                <td>61,4</td>
+                            </tr>
+                            <tr>
+                                <td>0004-2023</td>
+                                <td>Dra. Ana</td>
+                                <td>Internação</td>
+                                <td>01/01/2023</td>
+                                <td>13:55:00</td>
+                                <td>Programadora (eletiva)</td>
+                                <td>36984152</td>
+                                <td>Ana Laura</td>
+                                <td>F</td>
+                                <td>61</td>
+                                <td>63,5</td>
+                            </tr>
+                            <tr>
+                                <td>0005-2023</td>
+                                <td>Dr. Pedro</td>
+                                <td>Internação</td>
+                                <td>02/01/2023</td>
+                                <td>07:53:00</td>
+                                <td>De rotina (a ser realizada dentro das 24 horas)</td>
+                                <td>32145679</td>
+                                <td>Helena Soares</td>
+                                <td>F</td>
+                                <td>63</td>
+                                <td>57,9</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="td"><b>Tipo Sanguineo</b></td>
+                                <td class="td"><b>Fator Rh</b></td>
+                                <td class="td"><b>Qt Hemoglobina</b></td>
+                                <td class="td"><b>Qt Plaqueta</b></td>
+                                <td class="td"><b>Qt Fibrinogêneo</b></td>
+                                <td class="td"><b>Justificativa</b></td>
+                                <td class="td"><b>Tipo de Hemocomponente</b></td>
+                                <td class="td"><b>Quantidade/Volume em ml</b></td>
+                            </tr>
+                            <tr>
+                                <td>O</td>
+                                <td>Neg</td>
+                                <td>5,6</td>
+                                <td>408.000,00</td>
+                                <td>505,0</td>
+                                <td>Anemia</td>
+                                <td>Concentrado de Hemácias</td>
+                                <td>300,0</td>
+                            </tr>
+                            <tr>
+                                <td>O</td>
+                                <td>Neg</td>
+                                <td>5,6</td>
+                                <td>378.000,00</td>
+                                <td>505,0</td>
+                                <td>Anemia</td>
+                                <td>Concentrado de Hemácias</td>
+                                <td>300,0</td>
+                            </tr>
+                            <tr>
+                                <td>AB</td>
+                                <td>Neg</td>
+                                <td>10,2</td>
+                                <td>473.000,00</td>
+                                <td></td>
+                                <td>Procedimento de grande porte</td>
+                                <td>Plasma Fresco Congelado</td>
+                                <td>600,0</td>
+                            </tr>
+                            <tr>
+                                <td>B</td>
+                                <td>Pos</td>
+                                <td>8,3</td>
+                                <td>38.000,00</td>
+                                <td></td>
+                                <td>Sangramento</td>
+                                <td>Concentrado de Plaquetas</td>
+                                <td>240,0</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>Pos</td>
+                                <td>8,2</td>
+                                <td>47.000,00</td>
+                                <td></td>
+                                <td>Sangramento</td>
+                                <td>Concentrado de Plaquetas</td>
+                                <td>300,0</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="td"><b>Código de Rastreamento</b></td>
+                                <td class="td"><b>Data - Transfusão</b></td>
+                                <td class="td"><b>Hora - Transfusão</b></td>
+                                <td class="td"><b>Unidade</b></td>
+                                <td class="td"><b>Profissional</b></td>
+                                <td class="td"><b>Tipo Sanguíneo</b></td>
+                                <td class="td"><b>Fator Rh</b></td>
+                                <td class="td"><b>Faturado</b></td>
+                            </tr>
+                            <tr>
+                                <td>748569-BC</td>
+                                <td>01/01/2023</td>
+                                <td>02:40:00</td>
+                                <td>UTI</td>
+                                <td>XXXA</td>
+                                <td>O</td>
+                                <td>Neg</td>
+                                <td>Sim</td>
+                            </tr>
+                            <tr>
+                                <td>754968-AD</td>
+                                <td>01/01/2023</td>
+                                <td>03:50:00</td>
+                                <td>UTI</td>
+                                <td>XXXA</td>
+                                <td>O</td>
+                                <td>Neg</td>
+                                <td>Sim</td>
+                            </tr>
+                            <tr>
+                                <td>896858-BA</td>
+                                <td>01/01/2023</td>
+                                <td>17:35:00</td>
+                                <td>Enfermaria</td>
+                                <td>XXXB</td>
+                                <td>AB</td>
+                                <td>Neg</td>
+                                <td>Não</td>
+                            </tr>
+                            <tr>
+                                <td>569698-DB</td>
+                                <td>01/01/2023</td>
+                                <td>17:55:00</td>
+                                <td>Enfermaria</td>
+                                <td>XXXC</td>
+                                <td>B</td>
+                                <td>Pos</td>
+                                <td>Sim</td>
+                            </tr>
+                            <tr>
+                                <td>596368-DQ</td>
+                                <td>02/01/2023</td>
+                                <td>14:53:00</td>
+                                <td>Enfermaria</td>
+                                <td>XXXD</td>
+                                <td>A</td>
+                                <td>Pos</td>
+                                <td>Sim</td>
+                            </tr>
+                        </table>
+                           
+                        <p id="menor">Dados meramente ilustrativos</p>
+
+                        <div id="importante">
+                            <h1 id="grande"><b>!</b></h1>
+                            <p>Diante de possível inexistência de um software de administração de agências transfusionais, podem ser construídas tabelas semelhantes no programa Excel.
+    
+                            </p>
+                        </div>
+                    </div>
+                 
+                </div>
+           
+            
+        </div>
+        
+ 
+     
+    </div>
+    
+
+
+
+
+    <script type="text/javascript" src="includes/conteudo.js"></script>
+    <script type="text/javascript" src="includes/apiwrapper.js"></script>
+    <script type="text/javascript" src="includes/scofunctions.js"></script> 
+    <script type="text/javascript" src="includes/script21.js"></script> 
+</body>
+</html>
