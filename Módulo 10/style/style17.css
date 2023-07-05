@@ -19,16 +19,16 @@ img{
 }
 .palavras{
     width:100%;
-    height:100vh;
+    height:60vh;
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items:flex-end;
     position: absolute;
 }
 
  .direita{
     width:50%;
-    height:100vh;
+    height:40vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,48 +37,45 @@ img{
 }
 .esquerda{
     width:50%;
-    height:100vh;
+    height:40vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
 
 
 }
 #myCarousel{
-    width:90%;
-    height:95vh;
+    width:80%;
+    height:40vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
 
 }
 #myCarousel img{
     width: 90%;
-    height: 90vh;
+    height:100%;
 }
-#h2{
-    width: 70%;
-    background-color: #AB0003;
-    color: white;
-    font-size: 20px;
-    padding-left: 2em;
 
+#h2{
+    font-weight: bold;
+    color: #595959;
+    font-size:25px;
 }
 
 p{
     color: #595959;
-    font-size: 18px;
-    padding-left: 2em;
-    padding-right: 2em;
+    font-size: 20px;
 }
 
 .outro{
     width:90%;
-    height: 80vh;
+    height: 30vh;
     display: flex;
     justify-content:space-evenly;
+    align-items: center;
     flex-direction: column;
   
 }
@@ -93,4 +90,4 @@ p{
         .carousel-control-next-icon::before {
             content: '\f054';
         }
-        
+
