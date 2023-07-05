@@ -152,6 +152,11 @@ input.check[type="checkbox"] {
         
 
     }
+    p b{
+        background-color: #AB0C02;
+        padding:5px;
+        color: white; 
+    }
 @media screen and (max-width:996px) {
    
     p{
