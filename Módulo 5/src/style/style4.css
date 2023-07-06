@@ -34,7 +34,7 @@
  }
 
 #texto{
-    width:60%;
+    width:70%;
     height: 80vh;
     display: flex;
     justify-content:space-around;
@@ -80,7 +80,8 @@ p{
     p{
         font-size:15px;
     }
-    h2{
+    h2, h3{
         font-size:20px;
     }
+    
 }
