@@ -59,13 +59,14 @@ img{
     height: 90vh;
 }
 #h2{
-    width: 70%;
-    background-color: #AB0003;
-    color: white;
-    font-size: 20px;
-    padding-left: 2em;
+    
+    color: #AB0003;
+    font-size: 25px;
+    padding-left: 1.5em;
+    text-align:left;
 
 }
+
 
 p{
     color: #595959;
@@ -93,4 +94,13 @@ p{
         .carousel-control-next-icon::before {
             content: '\f054';
         }
-        
+        @media screen and (max-width:996px) {
+   
+            
+            #h2{
+                font-size:22spx;
+            }
+           
+          
+            
+        }

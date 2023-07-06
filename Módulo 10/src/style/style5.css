@@ -34,6 +34,7 @@ h2{
     font-size: 20px;
     padding: 7px;
     text-align: center;
+
 }
 h2 em{
     font-weight: 400;
@@ -129,6 +130,7 @@ input.check[type="checkbox"] {
         font-size: 16px;
         color: #595959;
         font-weight: bold;
+        padding-top: 2em;
     }
     #linha-resposta{
         width: 85%;
