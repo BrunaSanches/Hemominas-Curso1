@@ -35,7 +35,7 @@
 
 #texto{
     width:60%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content:space-around;
     align-items:flex-start;
@@ -46,11 +46,16 @@
 }
 h2{
     color:#595959;
-    font-size:28px;
+    font-size:25px;
+    font-weight:bold;
+}
+h3{
+    color:#595959;
+    font-size:22px;
     font-weight:bold;
 }
 p{
-    color:black;
+    color:#595959;
     font-size:18px;
     text-align: justify;
     
