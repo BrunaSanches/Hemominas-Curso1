@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#image{
+    width: 100%;
+    height: 100vh;
+
+}
+.palavras{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    position: absolute;   
+  
+}
+#botao{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+#botao a{
+
+    font-size: 17px;
+    background-color:#2F5597; 
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+
+ }
+
+ #horizontal2{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+ }
+ #vertical-1{
+    width: 50%;
+    height:90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+    
+ }
+ #vertical-2{
+    width:50%;
+    height:90vh;
+    display: flex;
+    justify-content: space-around;
+ align-items: flex-start;
+
+ }
+
+ 
+ #quadro{
+    width: 90%;
+    height:90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+  
+
+ }
+ #quadro p, #acima p{
+    color: #595959;
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+ #quadro li{
+    color: #595959;
+    font-size: 18px;
+    padding: 5px;
+ }
+ul{
+    padding-left:2em;
+    padding-right: 2em;  
+}
+    #vertical-2 img{
+        width: 95%;
+        height: 90vh;
+      
+    }
+#acima{
+    width: 50%;
+    height:90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    position: absolute;
+    left:51%;
+    top: 15%;
+}
+
+@media screen and (max-width:996px) {
+ 
+ #quadro p, #quadro li{
+
+    font-size: 14px;
+    }
+#botao a{
+
+    font-size: 15px;
+}
+#acima p{
+
+    font-size: 15px;
+    }
+
+}
