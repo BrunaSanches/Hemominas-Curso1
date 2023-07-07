@@ -35,3 +35,23 @@ a{
     text-decoration: none;
 
  }
+ #botao1{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+#botao1 a{
+
+    font-size: 17px;
+    background-color:#2F5597; 
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+
+ }
