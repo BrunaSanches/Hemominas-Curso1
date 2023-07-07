@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="IE=10">
+  <meta name="keywords" content="moodle, " />
+  <link rel="stylesheet" href="style/styleCalculo">        
+  <title>Calculadora de Hemoglobina Pré-Cirúrgica</title>
+  <script>
+    function calcularHemoglobina() {
+      // Obter os valores do formulário
+      var peso = parseFloat(document.getElementById('peso').value);
+      var hbPre = parseFloat(document.getElementById('hbPre').value);
+      var perdaEstimada = parseFloat(document.getElementById('perdaEstimada').value);
+      var hbPosDesejada = parseFloat(document.getElementById('hbPosDesejada').value);
+
+      // Calcular a Hemoglobina mínima ideal para homens e mulheres
+      var hbPreHomem = hbPosDesejada / (1 - (perdaEstimada / (peso * 70)));
+      var hbPreMulher = hbPosDesejada / (1 - (perdaEstimada / (peso * 65)));
+
+      // Calcular a transfusão prevista em unidades
+      var transfusaoHomem = Math.max(0, hbPreHomem - hbPre);
+      var transfusaoMulher = Math.max(0, hbPreMulher - hbPre);
+
+      // Determinar o risco de transfusão
+      var riscoTx = (transfusaoHomem >= 1 || transfusaoMulher >= 1) ? "Alto" : "Baixo";
+
+      // Exibir os resultados
+      document.getElementById('hbPreHomem').innerHTML = hbPreHomem.toFixed(2);
+      document.getElementById('hbPreMulher').innerHTML = hbPreMulher.toFixed(2);
+      document.getElementById('transfusaoHomem').innerHTML = transfusaoHomem.toFixed(2);
+      document.getElementById('transfusaoMulher').innerHTML = transfusaoMulher.toFixed(2);
+      document.getElementById('riscoTx').innerHTML = riscoTx;
+    }
+  </script>
+  <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+  
+
+}
+ h1{   
+  color: #404040;
+    font-size: 15px;
+
+}
+p, label{
+  color: #595959;
+    font-size: 14px;
+}
+h2{
+  color: #C00000;
+  font-size: 14px;
+}
+button{
+    width:30%;
+
+    background-color: #C00000;
+    border: 1px solid #46021B; 
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+}
+input{
+  width:40%;
+}
+
+@media screen and (max-width:996px) {
+   
+   p, label, input{
+      font-size:13px;
+  }
+  h2, h1{
+    font-size:14px;
+  }
+ 
+  
+}
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Hemoglobina Pré-Cirúrgica</h1>
+  <form>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso"  required>
+    <br>
+    <label for="hbPre">Hb Pré (g/dl):</label>
+    <input type="number" id="hbPre" required>
+    <br>
+    <label for="perdaEstimada">Perda Estimada:</label>
+    <input type="number" id="perdaEstimada" required>
+    <br>
+    <label for="hbPosDesejada">HB Pós op. desejada:</label>
+    <input type="number" id="hbPosDesejada" required>
+    <br>
+    <button type="button" onclick="calcularHemoglobina()">Calcular</button>
+  </form>
+  <br>
+  <h2>Resultados:</h2>
+  <p>Hb Pré para Homens: <span id="hbPreHomem"></span></p>
+  <p>Hb Pré para Mulheres: <span id="hbPreMulher"></span></p>
+  <p>Transfusão prevista para Homens: <span id="transfusaoHomem"></span></p>
+  <p>Transfusão prevista para Mulheres: <span id="transfusaoMulher"></span></p>
+  <p>Risco de Transfusão: <span id="riscoTx"></span></p>
+
+  
+</body>
+</html>
