@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<manifest identifier="SingleCourseManifest" version="1.2"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd                     http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata/>
+	<organizations default="contabil">
+	   <organization identifier="contabil">
+	   <title>Patient Blood Management (PBM)</title>
+			<item identifier="MOD_1" isvisible="true">
+				<title>Quiz</title>
+
+				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
+					<title>Quiz</title>
+				</item>
+
+				
+
+				
+		</item>
+
+				
+			  <metadata>
+			  <schema>ADL SCORM</schema>
+			  <schemaversion>1.2</schemaversion>
+			  <location>indefinido.xml</location>
+			</metadata>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="INC" adlcp:scormtype="asset" type="webcontent">
+			<file href="src/includes/apiwrapper.js"/>
+			<file href="src/includes/scofunctions.js"/>
+			<file href="src/includes/conteudo.js"/>
+			
+		</resource>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina1.html">
+		   <file href="src/pagina1.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
+
+		
+			
+	
+	</resources>
+</manifest>

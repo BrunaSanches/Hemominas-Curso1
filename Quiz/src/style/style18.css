@@ -142,9 +142,7 @@
 #direita #p{
    rotate: 5deg;
 }
-#direita #p:hover, #esquerda #p:hover{
-   color:  #AB0003;
-}
+
 #direita img, #esquerda img{
    width: 60%;
    height: 50vh;
