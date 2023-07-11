@@ -72,7 +72,7 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Sobre o Estudo de Caso</title>
+					<title>Reflexão</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>	
 

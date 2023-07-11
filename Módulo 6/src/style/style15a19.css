@@ -210,7 +210,7 @@ button:hover{
 /* pagina 15 */
 #boneco1{
    
-        width: 50%;
+        width: 60%;
         height: 85vh;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
@@ -232,10 +232,10 @@ button:hover{
     width: 50%;
     height: 90vh;
     position: absolute;
-    left: 15%;
+   
 }
 #esquerda-acima{
-    width: 70%;
+    width: 60%;
     height: 45vh;
     position: absolute;
     display: flex;
