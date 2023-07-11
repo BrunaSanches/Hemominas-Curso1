@@ -57,13 +57,13 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Vídeo - Resumo</title>
+					<title>Fim do Módulo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>
 
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Fim do Módulo</title>
+					<title>Vídeo - Resumo</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>
 
@@ -141,13 +141,13 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/video5.html">
-		   <file href="src/video5.html"/>
+		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
+		   <file href="src/pagina13.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
-		   <file href="src/pagina13.html"/>
+		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/video5.html">
+		   <file href="src/video5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
