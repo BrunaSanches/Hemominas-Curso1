@@ -33,7 +33,7 @@
     align-items: center;
 }
 #esquerda{
-    width:90%;
+    width:100%;
     height:70vh;
     display: flex;
     flex-direction: column;
@@ -43,12 +43,12 @@
 
 
 #textos{
-    width:100%;
+    width:95%;
     height:60vh;
     display: flex;
 }
 #textos-esquerda{
-    width:45%;
+    width:30%;
     height:60vh;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
     align-items: center;
 }
 #textos-direita{
-    width:45%;
+    width:60%;
     height:60vh;
     display: flex;
     flex-direction: column;

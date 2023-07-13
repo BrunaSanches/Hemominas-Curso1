@@ -18,7 +18,7 @@
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
 					<title>Apresentação Módulo IV</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
-				</item>s
+				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
 					<title>Vídeo de Apresentação</title>
@@ -31,12 +31,12 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Cirurgia sem Hemodiluição</title>
+					<title>Você sabe o que é a Hemodiluição Normovolêmica Aguda?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Você sabe o que é a Hemodiluição Normovolêmica Aguda?</title>
+					<title>Cirurgia sem Hemodiluição</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
@@ -52,17 +52,17 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<title>Possíveis facilidades e vantagens relacionados à Hemodiluição Normovolêmica Aguda</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 					<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Possíveis facilidades e vantagens relacionados à Hemodiluição Normovolêmica Aguda</title>
+					<title>Possíveis dificuldades relacionadas à Hemodiluição Normovolêmica Aguda</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
-					<title>Possíveis benefícios relacionados à Hemodiluição Normovolêmica Aguda:</title>
+					<title>Possíveis contraindicações relacionados à Hemodiluição Normovolêmica Aguda:</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>
 
@@ -126,13 +126,13 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
-		   <file href="src/pagina4.html"/>
+		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		   <file href="src/pagina5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
-		   <file href="src/pagina5.html"/>
+		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
+		   <file href="src/pagina4.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
