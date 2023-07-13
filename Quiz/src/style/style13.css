@@ -95,7 +95,7 @@ input[type="checkbox"] {
     color: green;
 }
 #checkbox2:checked + label {
-    color: #C00000;
+    color: green;
 }
 #checkbox3:checked + label {
     color: #C00000;
