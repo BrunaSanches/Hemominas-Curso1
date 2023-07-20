@@ -67,7 +67,7 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
-					<title>Estudo de Pesquisa</title>
+					<title>Análise de Pesquisa</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
 				</item>	
 
