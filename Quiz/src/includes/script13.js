@@ -40,15 +40,6 @@
   
   const checkboxes2 = document.getElementsByName("opcao1");
   
-  for (let x = 0; x < checkboxes2.length; x++) {
-    checkboxes2[x].addEventListener("click", function() {
-      for (let y = 0; y < checkboxes2.length; y++) {
-        if (y !== x) {
-          checkboxes2[y].checked = false;
-        }
-      }
-    });
-  }
   
   
   for (let x = 0; x < checkboxes2.length; x++) {
@@ -57,7 +48,7 @@
         alert("Parabéns! Você Acertou!");
       }
       else if(checkboxes2[1].checked){
-        alert("Resposta Incorreta! Clique no botão REINICIAR e tente novamente!");
+        alert("Parabéns! Você Acertou!");
       }
       else if(checkboxes2[2].checked){
        
@@ -83,15 +74,6 @@
   
   const checkboxes3 = document.getElementsByName("opcao2");
   
-  for (let a = 0; a < checkboxes3.length; a++) {
-    checkboxes3[a].addEventListener("click", function() {
-      for (let b = 0; b < checkboxes3.length; b++) {
-        if (b !== a) {
-          checkboxes3[b].checked = false;
-        }
-      }
-    });
-  }
   
   
   for (let a = 0; a < checkboxes3.length; a++) {
@@ -100,7 +82,7 @@
         alert("Parabéns! Você Acertou! \n\n Feedback: A dose máxima semanal para reposição do Hidróxido Férrico é de 600 mg ou 6 ampolas.  Esta dose pode ser dada  em dias alternados ou intervalo maior, se a reposição for com duas ampolas por vez  ou diária, se a dose for de uma ampola por aplicação. ");
       }
       else if(checkboxes3[1].checked){
-        alert("Resposta Incorreta! Clique no botão REINICIAR e tente novamente! \n\n Feedback: A dose máxima semanal para reposição do Hidróxido Férrico é de 600 mg ou 6 ampolas.  Esta dose pode ser dada  em dias alternados ou intervalo maior, se a reposição for com duas ampolas por vez  ou diária, se a dose for de uma ampola por aplicação. ");
+        alert("Parabéns! Você Acertou! \n\n Feedback: A dose máxima semanal para reposição do Hidróxido Férrico é de 600 mg ou 6 ampolas.  Esta dose pode ser dada  em dias alternados ou intervalo maior, se a reposição for com duas ampolas por vez  ou diária, se a dose for de uma ampola por aplicação. ");
       }
       else if(checkboxes3[2].checked){
         alert("Resposta Incorreta! Clique no botão REINICIAR e tente novamente! \n\n Feedback: A dose máxima semanal para reposição do Hidróxido Férrico é de 600 mg ou 6 ampolas.  Esta dose pode ser dada  em dias alternados ou intervalo maior, se a reposição for com duas ampolas por vez  ou diária, se a dose for de uma ampola por aplicação. ");

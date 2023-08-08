@@ -108,7 +108,7 @@ input[type="checkbox"] {
     color: green;
 }
 #checkbox6:checked + label {
-    color: #C00000;
+    color: green;
 }
 #checkbox7:checked + label {
     color:  #C00000;
@@ -121,7 +121,7 @@ input[type="checkbox"] {
     color: green;
 }
 #checkbox10:checked + label {
-    color: #C00000;
+    color: green;
 }
 #checkbox11:checked + label {
     color:  #C00000;
