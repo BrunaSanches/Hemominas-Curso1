@@ -15,104 +15,101 @@
 					<title>Módulo I</title>
 				</item>
 
+				
+
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Vídeo de Boas Vindas</title>
+					<title>Apresentação do Módulo I</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Apresentação do Módulo I</title>
+					<title>Objetivos de Aprendizagem</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_4" identifierref="RES_4" isvisible="true">
-					<title>Objetivos de Aprendizagem</title>
+					<title>Apresentação dos Personagens</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_3</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Apresentação dos Personagens</title>
+					<title>Patient Blood Management (PBM)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Patient Blood Management (PBM)</title>
+					<title>História - Patient Blood Management (PBM)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>História - Patient Blood Management (PBM)</title>
+					<title>Sobre - Patient Blood Management (PBM)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Sobre - Patient Blood Management (PBM)</title>
+					<title>Stakeholders – Patient Blood Management (PBM)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Stakeholders – Patient Blood Management (PBM)</title>
+					<title>Macro e Micro</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Macro e Micro</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
 					<title>Pilares do PBM</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>	
 
-				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
+				<item identifier="MOD_1_SCO_11" identifierref="RES_11" isvisible="true">
 					<title>Primeiro Pilar</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_10</adlcp:prerequisites>
 				</item>
 
-				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
+				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
 					<title>O que diz a OMS sobre a relevância da anemia em relação ao PBM</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
 				</item>
 			
-				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
+				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
 					<title>Anemia e complicações no pós-operatório</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
+					<title>Proposta - a anemia M. Muñoz & cols.</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Proposta - a anemia M. Muñoz & cols.</title>
+					<title>Anemia durante a internação</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Anemia durante a internação</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
 					<title>Segundo Pilar</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
 				</item>	
 
-				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
+				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
 					<title>Terceiro Pilar - PÓS-OPERATÓRIO</title>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
+				</item>
+
+				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
+					<title>Terceiro Pilar - Medidas para Suporte</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_17</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>Terceiro Pilar - Medidas para Suporte</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
-				</item>
-
-				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
 					<title>Fim do Módulo</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>	
 
-				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
+				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
 					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
+					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>	
 
 		</item>
@@ -137,102 +134,97 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video1.html">
-		   <file href="src/video1.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
-
-		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/video2.html">
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/video2.html">
 		   <file href="src/video2.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		
-		<resource identifier="RES_4" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
+		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
 		   <file href="src/pagina3.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
+		<resource identifier="RES_4" type="webcontent" adlcp:scormtype="sco" href="src/pagina4.html">
 		   <file href="src/pagina4.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		<resource identifier="RES_5" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
 		   <file href="src/pagina5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_7" type="webcontent" adlcp:scormtype="sco" href="src/pagina6.html">
+		<resource identifier="RES_6" type="webcontent" adlcp:scormtype="sco" href="src/pagina6.html">
 		   <file href="src/pagina6.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
+		<resource identifier="RES_7" type="webcontent" adlcp:scormtype="sco" href="src/pagina7.html">
 		   <file href="src/pagina7.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_9" type="webcontent" adlcp:scormtype="sco" href="src/pagina8.html">
+		<resource identifier="RES_8" type="webcontent" adlcp:scormtype="sco" href="src/pagina8.html">
 		   <file href="src/pagina8.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
+		<resource identifier="RES_9" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
 		   <file href="src/pagina9.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-			<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
+			<resource identifier="RES_10" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
 		   <file href="src/pagina10.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
+		<resource identifier="RES_11" type="webcontent" adlcp:scormtype="sco" href="src/pagina11.html">
 		   <file href="src/pagina11.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina12.html">
+		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina12.html">
 		   <file href="src/pagina12.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
+		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina13.html">
 		   <file href="src/pagina13.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
+		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina14.html">
 		   <file href="src/pagina14.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
+		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
 		   <file href="src/pagina15.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina16.html">
 		   <file href="src/pagina16.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
 		   <file href="src/pagina17.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
+		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
 		   <file href="src/pagina18.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+		<resource identifier="RES_19" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
 		   <file href="src/pagina19.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_21" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
+		<resource identifier="RES_20" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
 		   <file href="src/pagina20.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
