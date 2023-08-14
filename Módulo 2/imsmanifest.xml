@@ -46,7 +46,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Classificações Morfológica das Anemias</title>
+					<title>Classificações Morfológicas das Anemias</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
@@ -115,7 +115,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>European Crohn´s and Colitis Organization</title>
+					<title>Fe IV contra indicado na infecção?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 			
