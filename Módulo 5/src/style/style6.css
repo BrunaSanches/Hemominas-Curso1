@@ -44,7 +44,7 @@
     flex-direction: column;
 }
 .palavras img{
-    width:80%;
+    width:75%;
     height: 80vh;
 }
 p{
@@ -72,5 +72,8 @@ h2{
     h2{
         font-size:22px;
     }
-    
+    .palavras img{
+        width:70%;
+        height: 70vh;
+    }
 }
