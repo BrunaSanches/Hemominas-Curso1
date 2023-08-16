@@ -72,11 +72,7 @@
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
 				</item>	
 
-				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Referências Bibliográficas</title>
-					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
-				</item>	
-
+				
 
 
 		</item>
@@ -156,10 +152,7 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina15.html">
-		   <file href="src/pagina15.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
+		
 
 	
 	</resources>
