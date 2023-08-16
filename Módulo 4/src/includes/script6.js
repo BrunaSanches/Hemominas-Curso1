@@ -115,17 +115,3 @@ checkbox8.onchange = toggleTexto;
 
 var checkbox9 = document.getElementById("checkbox9");
 checkbox9.onchange = toggleTexto;
-
-
-var opcoes = document.getElementsByName("opcao");
-		for (var i = 0; i < opcoes.length; i++) {
-			opcoes[i].addEventListener("click", function() {
-				// Desmarca todos os outros checkbox
-				for (var j = 0; j < opcoes.length; j++) {
-					if (opcoes[j] != this) {
-						opcoes[j].checked = false;
-					}
-				}
-			});
-		}
-    
