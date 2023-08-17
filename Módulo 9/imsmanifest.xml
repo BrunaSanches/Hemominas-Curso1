@@ -31,12 +31,12 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Contribuição dos custos transfusionais aos custos hospitalares gerais</title>
+					<title>Custos relacionados às transfusões de hemocomponentes</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Custos diretos e indiretos associados às tranfusões</title>
+					<title>Vídeo - Custos diretos e indiretos associados às tranfusões</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
