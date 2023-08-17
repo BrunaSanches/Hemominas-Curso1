@@ -52,14 +52,15 @@ p{
     padding: 10px;
 }
 .img-container {
-    width:100%;
+    width:90%;
     height: 30vh;
     position: relative;
     cursor: pointer;
+    text-align: center;
   }
   
   .img-container img {
-    width:100%; /* Tamanho inicial da imagem */
+    width:90%; /* Tamanho inicial da imagem */
     height: 70vh;
     transition: width 0.3s ease;
     border-radius: 5px;
@@ -68,8 +69,8 @@ p{
   
   /* Estilos para expandir a imagem */
   .img-container.expanded img {
-    width: 100%; /* Tamanho máximo para ocupar a tela */
-    height:100vh;
+    width: 80%; /* Tamanho máximo para ocupar a tela */
+    height:90vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -90,6 +91,17 @@ p{
     h2{
         font-size:20px;
     }
+
+    .img-container.expanded img {
+      width:85%; /* Tamanho máximo para ocupar a tela */
+      height:55vh;}
+
   
     
+}
+@media screen and (max-width:768px) {
+  
+  .img-container.expanded img {
+    width:90%; /* Tamanho máximo para ocupar a tela */
+    height:60vh;}
 }

@@ -105,8 +105,8 @@ p{
     }
 
     .img-container.expanded img {
-        width: 95%; /* Tamanho máximo para ocupar a tela */
-        height:100vh;
+        width: 80%; /* Tamanho máximo para ocupar a tela */
+        height:98vh;
         position: fixed;
         top: 0;
         left: 0;
@@ -118,3 +118,18 @@ p{
     
     
 }
+
+@media screen and (max-width:768px) {
+    .img-container.expanded img {
+        width: 90%; /* Tamanho máximo para ocupar a tela */
+        height:98vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+}
+

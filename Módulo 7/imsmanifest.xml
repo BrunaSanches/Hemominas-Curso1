@@ -31,27 +31,27 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Ácido Tranexâmico (TXA)</title>
+					<title>O papel do Ácido Tranexâmico (TXA)</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_6" identifierref="RES_6" isvisible="true">
-					<title>Ácido Tranexâmico</title>
+					<title>Vídeo - Ácido Tranexâmico</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_5</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Quando é necessário o uso de Agentes Antifibrinolíticos</title>
+					<title>Vídeo - Quando é necessário o uso de Agentes Antifibrinolíticos?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Mecanismo de Ação TXA</title>
+					<title>Vídeo - Mecanismo de Ação TXA</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_9" identifierref="RES_9" isvisible="true">
-					<title>Agentes Antifibrinolíticos</title>
+					<title>Vídeo - Agentes Antifibrinolíticos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_8</adlcp:prerequisites>
 				</item>
 
@@ -106,12 +106,12 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_20" identifierref="RES_20" isvisible="true">
-					<title>Eventos adversos com o uso de Ácido Tranexâmico</title>
+					<title>Eventos adversos - Eventos tromboembólicos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_19</adlcp:prerequisites>
 				</item>	
 
 				<item identifier="MOD_1_SCO_21" identifierref="RES_21" isvisible="true">
-					<title>Eventos adversos com o uso de Ácido Tranexâmico</title>
+					<title>Eventos adversos - Convulsões, Hipotensão e arritmias </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_20</adlcp:prerequisites>
 				</item>
 

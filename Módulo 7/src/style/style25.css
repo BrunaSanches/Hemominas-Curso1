@@ -29,15 +29,15 @@ img{
     height:80vh;
     display: flex;
     justify-content: center;
-    align-items: ce;
-    background-color: #595959;
+    align-items: left;
+    background-color: white;
     flex-direction: column;
     border-radius: 10px;
 }
 p{
     text-align: left;
     font-size:14px;
-    color: white;
+    color: #595959;
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 1em;
@@ -46,7 +46,7 @@ p{
 h2{
     text-align: left;
     font-size:25px;
-    color: white;
+    color: #595959;
     padding: 2em;
 }
 
