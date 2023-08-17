@@ -27,7 +27,7 @@
 }
 li{
     text-align: justify;
-    font-size:20px;
+    font-size:16px;
     color: #595959;
     font-weight:400;
 }
@@ -54,7 +54,7 @@ h2{
 @media screen and (max-width:996px) {
 
     li{
-        font-size:17px;
+        font-size:14px;
     }
     h2{
         font-size:25px;

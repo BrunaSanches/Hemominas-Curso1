@@ -90,9 +90,9 @@
   position: absolute;
   bottom: 13px;
   cursor: pointer;
-  color: white;
-  background-color: #C50A04;
-  border: 1px solid white;
+  color: #C50A04;
+  background-color:white; 
+  border: 1px solid #C50A04;
   border-radius: 5px;
   padding: 5px;
   font-size: 15px;

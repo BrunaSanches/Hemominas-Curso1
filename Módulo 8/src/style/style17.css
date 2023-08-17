@@ -65,10 +65,23 @@ img{
 @media screen and (max-width:996px) {
    
     td{
-        font-size:13px;
+        font-size:11px;
     }
     h2{
-        font-size:18px;
+        font-size:15px;
+    }
+   
+  
+    
+}
+
+@media screen and (max-width:768px) {
+   
+    td{
+        font-size:10px;
+    }
+    h2{
+        font-size:13px;
     }
    
   

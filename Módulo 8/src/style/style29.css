@@ -53,10 +53,22 @@ img{
 @media screen and (max-width:996px) {
    
     li{
-        font-size:16px;
+        font-size:15px;
     }
     h2{
-        font-size:22px;
+        font-size:20px;
+    }
+   
+  
+    
+}
+@media screen and (max-width:768px) {
+   
+    li{
+        font-size:12px;
+    }
+    h2{
+        font-size:16px;
     }
    
   

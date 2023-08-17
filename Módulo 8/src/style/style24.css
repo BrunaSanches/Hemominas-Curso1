@@ -89,10 +89,23 @@ img{
 @media screen and (max-width:996px) {
    
     #titulo{
-        font-size:20px;
+        font-size:16px;
     }
     #resposta{
-        font-size: 16px;
+        font-size: 13px;
+    }
+   
+  
+    
+}
+
+@media screen and (max-width:768px) {
+   
+    #titulo{
+        font-size:14px;
+    }
+    #resposta{
+        font-size: 11px;
     }
    
   

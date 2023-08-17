@@ -56,3 +56,12 @@ img{
   
     
 }
+@media screen and (max-width:768px) {
+   
+    li{
+        font-size:10px;
+    }
+   
+  
+    
+}
