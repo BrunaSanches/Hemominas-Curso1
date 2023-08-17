@@ -66,15 +66,13 @@ img{
         
     }
 
-@media screen and (max-width:996px) {
+    @media screen and (max-width:996px) {
    
-    p{
-        font-size:18px;
+        p{
+            font-size:15px;
+        }
+        h2, #esquerda-acima p{
+            font-size:18px;
+        }
+       
     }
-    h2{
-        font-size:22px;
-    }
-   
-  
-    
-}

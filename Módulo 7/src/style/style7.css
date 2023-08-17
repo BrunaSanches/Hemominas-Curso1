@@ -94,7 +94,7 @@ p{
 
     .img-container.expanded img {
       width:85%; /* Tamanho máximo para ocupar a tela */
-      height:55vh;}
+      height:95vh;}
 
   
     
@@ -102,6 +102,6 @@ p{
 @media screen and (max-width:768px) {
   
   .img-container.expanded img {
-    width:90%; /* Tamanho máximo para ocupar a tela */
-    height:60vh;}
+    width:95%; /* Tamanho máximo para ocupar a tela */
+    height:80vh;}
 }

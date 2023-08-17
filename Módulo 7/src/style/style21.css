@@ -67,15 +67,14 @@ img{
        padding: 0.5em;
     }
     table{
-        width: 95%;
-        height: 30vh;
+        width: 100%;
         border:1px solid #595959;
         border-collapse: collapse;
     }
    td{
     color:#595959;
     font-size:15px;
-    padding: 5px;
+    padding: 3px;
     text-align: center;
    }
    .borda{
@@ -93,6 +92,23 @@ img{
     td{
    
         font-size:13px;
+
+        }
+
+ 
+    
+}
+@media screen and (max-width:768px) {
+   
+    li{
+        font-size:12px;
+    }
+    h2{
+        font-size:15px;
+    }
+    td{
+   
+        font-size:10px;
 
         }
 

@@ -121,8 +121,8 @@ p{
 
 @media screen and (max-width:768px) {
     .img-container.expanded img {
-        width: 90%; /* Tamanho máximo para ocupar a tela */
-        height:98vh;
+        width: 95%; /* Tamanho máximo para ocupar a tela */
+        height:88vh;
         position: fixed;
         top: 0;
         left: 0;

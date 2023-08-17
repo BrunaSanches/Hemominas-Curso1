@@ -118,3 +118,21 @@ p{
     
     
 }
+
+@media screen and (max-width:996px) {
+ 
+
+    .img-container.expanded img {
+        width: 98%; /* Tamanho máximo para ocupar a tela */
+        height:100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+    
+    
+}

@@ -59,3 +59,14 @@ h2{
     }
     
 }
+@media screen and (max-width:768px) {
+   
+    li{
+        font-size:12px;
+    }
+    
+    h2{
+        font-size:16px;
+    }
+    
+}
