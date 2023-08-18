@@ -109,3 +109,19 @@ ul{
       font-size: 11px;
     }
 }
+@media screen and (max-width:996px) {
+   
+   
+  h2{
+      font-size:15px;
+  }
+  li, p{
+    font-size: 10px;
+  }
+  a{
+    font-size:10px;
+  }
+  td{
+    font-size: 8px;
+  }
+}

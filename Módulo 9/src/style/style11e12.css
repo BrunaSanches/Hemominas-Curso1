@@ -91,7 +91,7 @@ input.check[type="checkbox"] {
     }
    
     #linha{
-        width: 95%;
+        width: 100%;
         height:50vh;
         display: flex;
         justify-content: space-between;
@@ -119,6 +119,7 @@ input.check[type="checkbox"] {
         font-weight: bold;
         border-radius: 3px;
         padding: 5px;
+        font-size: 15px;
     
      }
      label:hover{
@@ -126,7 +127,7 @@ input.check[type="checkbox"] {
         border-color: #AB0C02;
      }
     .texto-resposta{
-        width: 100%;
+        width: 50%;
         height: auto;
         font-size: 15px;
         
@@ -156,15 +157,39 @@ input.check[type="checkbox"] {
         background-color: #AB0C02;
         padding:5px;
         color: white; 
+        font-size:15px;
     }
 @media screen and (max-width:996px) {
    
-    p{
-        font-size:14px;
+    p, label{
+        font-size:13px;
     }
    
     h2{
-        font-size:18px;
+        font-size:14px;
+    }
+    .texto-resposta{
+        font-size:12px;
+    }
+  
+    p b{
+        font-size:10px;
+    }
+}
+@media screen and (max-width:768px) {
+   
+    p, label{
+        font-size:10px;
+    }
+   
+    h2{
+        font-size:12px;
+    }
+    .texto-resposta{
+        font-size:8px;
+    }
+    p b{
+        font-size:9px;
     }
   
 }

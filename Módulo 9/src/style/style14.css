@@ -120,11 +120,33 @@ p{
     h2{
         font-size:18px;
     }
-    li, #texto1, #texto2, p{
-      font-size: 17px;
+    li, #texto1, #texto2, p, h3{
+      font-size: 15px;
     }
     a{
       font-size:15px;
+    }
+    #img1 img{
+        width:100%;
+        height:40vh;
+    }
+    #img2 img{
+        width:70%;
+        height:40vh;
+    }
+ 
+}
+@media screen and (max-width:768px) {
+   
+    
+    h2{
+        font-size:12px;
+    }
+    li, #texto1, #texto2, p, h3{
+      font-size: 10px;
+    }
+    a{
+      font-size:10px;
     }
     #img1 img{
         width:100%;

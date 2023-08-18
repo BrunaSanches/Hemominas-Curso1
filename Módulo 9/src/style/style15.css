@@ -156,13 +156,33 @@ p{
 @media screen and (max-width:996px) {
    
     h2{
-        font-size:18px;
+        font-size:15px;
     }
-    li, p, td{
+    li, p, td, h3, p b{
       font-size: 12px;
     }
     a{
       font-size:15px;
+    }
+    #img-abaixo{
+        width: 40%;
+        height: auto;
+    }
+    #fonte{
+        font-size: 10px;
+      }
+    
+}
+@media screen and (max-width:768px) {
+   
+    h2{
+        font-size:12px;
+    }
+    li, p, td, h3, p b{
+      font-size: 10px;
+    }
+    a{
+      font-size:10px;
     }
     #img-abaixo{
         width: 40%;

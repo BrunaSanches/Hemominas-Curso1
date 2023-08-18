@@ -33,5 +33,20 @@ h2{
     h2{
         font-size:22px;
     }
-  
+    img{
+        width: 90%;
+        height:85vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+
+    h2{
+        font-size:18px;
+    }
+    img{
+        width: 95%;
+        height:65vh;
+    }
 }

@@ -113,14 +113,37 @@ p{
         font-weight: bold;
         text-decoration: none;
     }
-@media screen and (max-width:996px) {
+    @media screen and (max-width:996px) {
    
-    p{
-        font-size:20px;
+        p, label{
+            font-size:13px;
+        }
+       
+        h2{
+            font-size:14px;
+        }
+        .texto-resposta{
+            font-size:12px;
+        }
+      
+        p b{
+            font-size:10px;
+        }
     }
-   
-    h2{
-        font-size:18px;
+    @media screen and (max-width:768px) {
+       
+        p, label{
+            font-size:10px;
+        }
+       
+        h2{
+            font-size:12px;
+        }
+        .texto-resposta{
+            font-size:8px;
+        }
+        p b{
+            font-size:9px;
+        }
+      
     }
-  
-}

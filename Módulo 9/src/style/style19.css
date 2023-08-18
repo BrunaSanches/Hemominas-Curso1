@@ -103,3 +103,18 @@ ul{
     }
     
 }
+ 
+@media screen and (max-width:768px) {
+   
+   
+  h2{
+      font-size:15px;
+  }
+   li{
+    font-size: 9px;
+  }
+  a{
+    font-size:10px;
+  }
+  
+}

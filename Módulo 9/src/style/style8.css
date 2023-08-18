@@ -50,15 +50,20 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #A8CCFF;
+    flex-direction: column;
 }
 
-
+p b{
+    font-size:12px;
+    color: #595959;
+    text-align: center;
+}
 h2{
-    font-size:20px;
+    font-size:18px;
     color: #595959;
 }
 p{
-    font-size:17px;
+    font-size:15px;
     color: #595959;
     text-align: justify;
     padding-left: 2em;
@@ -81,15 +86,35 @@ td{
 @media screen and (max-width:996px) {
  
     h2{
-        font-size:18px;
+        font-size:16px;
     }
    p{
-    font-size:15px;
+    font-size:14px;
    }
    td{
-    font-size: 11px;
+    font-size: 9px;
    }
-   
+    p b{
+        font-size: 8px;
+    }
+
+    
+    
+}
+@media screen and (max-width:768px) {
+ 
+    h2{
+        font-size:13px;
+    }
+   p{
+    font-size:10px;
+   }
+   td{
+    font-size:8px;
+   }
+    p b{
+        font-size: 8px;
+    }
 
     
     

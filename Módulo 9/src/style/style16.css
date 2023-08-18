@@ -41,7 +41,7 @@
     
 }
 
-p, li{
+p, li, p b{
     text-align:left;
     font-size:16px;
     color: #595959;
@@ -100,7 +100,7 @@ ul{
      }
     
     #fonte{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     
@@ -123,7 +123,7 @@ ul{
   
   /* Estilos para expandir a imagem */
   .img-container.expanded img {
-    width: 95%; /* Tamanho máximo para ocupar a tela */
+    width: 75%; /* Tamanho máximo para ocupar a tela */
     height:85vh;
     position: fixed;
     top: 0;
@@ -161,18 +161,51 @@ ul{
   #vermelhos{
     font-weight: bold;
   }
+
 @media screen and (max-width:996px) {
    
   h2{
-    font-size:18px;
+    font-size:13px;
 }
-li, p{
-  font-size: 15px;
+li, p, p b{
+  font-size: 12px;
 }
 a{
-  font-size:15px;
+  font-size:10px;
 }
 td{
+  font-size: 9px;
+}
+#fonte{
+  font-size: 8px;
+}
+
+.img-container.expanded img {
+  width: 65%; /* Tamanho máximo para ocupar a tela */
+  height:85vh;
+}
+}
+
+@media screen and (max-width:800px) {
+   
+  h2{
+    font-size:13px;
+}
+li, p, p b{
   font-size: 10px;
+}
+a{
+  font-size:10px;
+}
+td{
+  font-size: 7px;
+}
+#fonte{
+  font-size: 8px;
+}
+
+.img-container.expanded img {
+  width: 70%; /* Tamanho máximo para ocupar a tela */
+  height:85vh;
 }
 }

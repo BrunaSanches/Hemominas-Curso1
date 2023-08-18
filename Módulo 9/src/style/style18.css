@@ -100,3 +100,18 @@ p{
     }
     
 }
+
+@media screen and (max-width:768px) {
+   
+   
+  h2{
+      font-size:15px;
+  }
+   p{
+    font-size: 10px;
+  }
+  a{
+    font-size:10px;
+  }
+  
+}
