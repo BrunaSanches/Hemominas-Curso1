@@ -90,4 +90,23 @@ p{
         .carousel-control-next-icon::before {
             content: '\f054';
         }
-
+        @media screen and (max-width:996px) {
+   
+            
+            #h2{
+                font-size:15px;
+            }
+           
+            p{
+           
+                font-size: 13px;
+            }
+            #myCarousel{
+                width:90%;
+                height:90vh;
+            }
+            #myCarousel img{
+                width: 100%;
+                height:40vh;
+            }
+        }

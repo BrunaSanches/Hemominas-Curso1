@@ -201,14 +201,29 @@ input.check[type="checkbox"] {
 @media screen and (max-width:996px) {
     
    
-    p, #respostas p{
-        font-size:15px;
+    p, #respostas p, h3{
+        font-size:13px;
     }
     label{
-        font-size:12px;
+        font-size:11px;
     }
-    h2{
-        font-size:20px; 
+    #h2{
+        font-size:18px; 
+    }
+
+    
+}
+@media screen and (max-width:768px) {
+    
+   
+    p, #respostas p, h3{
+        font-size:10px;
+    }
+    label{
+        font-size:9px;
+    }
+    #h2{
+        font-size:15px; 
     }
 
     
