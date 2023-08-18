@@ -46,7 +46,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_8" identifierref="RES_8" isvisible="true">
-					<title>Custos diretos associados às transfusões</title>
+					<title>Custos diretos associados às transfusões - Tabela de Referência</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_7</adlcp:prerequisites>
 				</item>
 

@@ -54,7 +54,7 @@
 }
 
 p b{
-    font-size:12px;
+    font-size:10px;
     color: #595959;
     text-align: center;
 }
@@ -78,7 +78,7 @@ table{
 }
 
 td{
-    font-size: 13px;
+    font-size: 11px;
     border: 1px solid #A8CCFF;
     color: white;
     padding: 5px;

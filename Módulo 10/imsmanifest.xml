@@ -31,7 +31,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_5" identifierref="RES_5" isvisible="true">
-					<title>Construção de banco de dados Dados primários</title>
+					<title>Construção de banco de dados - Dados primários</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_4</adlcp:prerequisites>
 				</item>
 
@@ -41,7 +41,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Construção de banco de dados Dados secundários</title>
+					<title>Construção de banco de dados - Dados secundários</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 

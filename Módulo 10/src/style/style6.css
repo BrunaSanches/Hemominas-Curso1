@@ -95,14 +95,14 @@ img{
 @media screen and (max-width:996px) {
    
    p, #importante p{
-    font-size: 15px;
-   }
-   td{
     font-size:9px;
+   }
+   td, #menor{
+    font-size:6px;
    }
    
    #grande{
-    font-size:30px;
+    font-size:20px;
    }
     
 }

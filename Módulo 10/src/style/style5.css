@@ -161,11 +161,26 @@ input.check[type="checkbox"] {
 
 @media screen and (max-width:996px) {
    
-    .itens{
-        font-size:14px;
+ 
+    h2, p, .itens{
+        font-size:10px;
     }
-    h2, p{
-        font-size:16px;
+   label{
+        font-size:10px;
+    }
+   
+  
+    
+}
+
+@media screen and (max-width:768px) {
+   
+ 
+    h2, p, .itens{
+        font-size:8px;
+    }
+   label{
+        font-size:8px;
     }
    
   
