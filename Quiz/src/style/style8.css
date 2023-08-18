@@ -333,8 +333,28 @@ iframe{
 #quadro h3, h1{
     font-size: 14px;
 }
-#botao a{
+#botao a, #horizontal1 h2{
 
     font-size: 15px;
 }
 }
+@media screen and (max-width:768px) {
+    #quadro img {
+         width: 80%;
+         height: 30%;
+     }
+    #vertical-1 p, #vertical-2 p, #vertical-3 p,  #vertical-1 td{
+ 
+     font-size: 10px;
+ }
+     #quadro-azul button, #quadro button{
+     font-size: 10px;
+ }
+ #quadro h3, h1, #horizontal1 h2{
+     font-size: 12px;
+ }
+ #botao a{
+ 
+     font-size: 12px;
+ }
+ }

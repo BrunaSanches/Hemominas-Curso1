@@ -131,26 +131,17 @@
     text-align: justify;
     font-size: 16px;
  }
- table img{
-        width: 100%;
-        height: 20vh;
+ #quadro img{
+   width:60%;
+        height: 15vh;
  }
- #quadro table{
-    width: 100%;
-    height: 20vh;
- }
- td #img{
-    width: 70%;
-
- }
-
 @media screen and (max-width:996px) {
- 
-    table img{
-        width: 100%;
-        height: 20vh;
+   #quadro img{
+      width:70%;
+           height: 15vh;
+    
  }
- #quadro-azul p, #quadro-azul td, #quadro td, #quadro p{
+ #quadro-azul p, #quadro-azul td, #quadro p{
 
     font-size: 14px;
 }
@@ -162,4 +153,28 @@
 #horizontal1 h2 {
     font-size: 15px;
 }
+}
+
+@media screen and (max-width:768px) {
+ 
+   table img{
+       width: 100%;
+       height: 20vh;
+}
+#quadro-azul p, #quadro-azul td, #quadro td, #quadro p{
+
+   font-size: 10px;
+}
+#botao a{
+
+   font-size: 10px;
+}
+
+#horizontal1 h2 {
+   font-size: 10px;
+}
+#quadro img{
+   width:70%;
+        height: 15vh;
+ }
 }

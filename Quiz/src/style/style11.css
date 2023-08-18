@@ -83,3 +83,18 @@
      font-size: 15px;
  }
  }
+ 
+@media screen and (max-width:768px) {
+    p{
+ 
+     font-size: 10px;
+ }
+  
+ #azul{
+     font-size: 10px;
+ }
+ #botao a{
+ 
+     font-size: 12px;
+ }
+ }

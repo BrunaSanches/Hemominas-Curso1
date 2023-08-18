@@ -119,7 +119,7 @@ input[type="checkbox"] {
     color: #C00000;
 }
  button{
-    width:20%;
+    width:25%;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -151,11 +151,25 @@ iframe{
      font-size: 16px;
  }
   
- #vermelho{
+ #vermelho, .questao label{
      font-size: 14px;
  }
  #botao a{
  
      font-size: 15px;
+ }
+ }
+ @media screen and (max-width:768px) {
+    p{
+ 
+     font-size: 10px;
+ }
+  
+ #vermelho, .questao label{
+     font-size: 10px;
+ }
+ #botao a{
+ 
+     font-size: 12px;
  }
  }

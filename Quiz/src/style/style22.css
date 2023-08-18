@@ -116,7 +116,7 @@ ul{
     top: 15%;
 }
 #vertical-1 img{
-       
+    width: 80%;
     height:70vh;
   
 }
@@ -136,3 +136,23 @@ ul{
     }
 
 }
+@media screen and (max-width:768px) {
+    #vertical-1 img{
+        width: 80%;
+        height:70vh;
+      
+    }
+    #quadro p, #quadro li{
+   
+       font-size: 10px;
+       }
+   #botao a{
+   
+       font-size: 11px;
+   }
+   #acima p{
+   
+       font-size: 10px;
+       }
+   
+   }

@@ -105,7 +105,7 @@
 
 @media screen and (max-width:996px) {
    
-    #direita a, #esquerda a{
+    #direita a, #esquerda a, #centro p{
        font-size:16px;
    }
    #direita img, #esquerda img{
@@ -116,5 +116,21 @@
 #botao a{
 
     font-size: 15px;
+}
+}
+
+@media screen and (max-width:768px) {
+   
+    #direita a, #esquerda a, #centro p{
+       font-size:12px;
+   }
+   #direita img, #esquerda img{
+    width: 80%;
+    height: 70vh;
+}
+   
+#botao a{
+
+    font-size: 12px;
 }
 }

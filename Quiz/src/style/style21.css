@@ -113,8 +113,8 @@ ul{
 
 @media screen and (max-width:996px) {
    
-    p{
-       font-size:18px;
+    p,  #horizontal1 h2, #horizontal1 p{
+       font-size:15px;
    }
    #botao a{
 
@@ -123,4 +123,17 @@ ul{
    li{
       font-size:16px;
    }
+}
+@media screen and (max-width:996px) {
+   
+   p{
+      font-size:10px;
+  }
+  #botao a, #horizontal1 h2, #horizontal1 p{
+
+     font-size: 12px;
+ }
+  li{
+     font-size:10px;
+  }
 }

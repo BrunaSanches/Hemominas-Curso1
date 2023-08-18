@@ -151,12 +151,22 @@
  }
 @media screen and (max-width:996px) {
    
-    p,  #quadro-vermelho li, li{
+    p,  #quadro-vermelho li, li, p b,  #quadro p, #quadro-vermelho p {
        font-size:16px;
    }
-   #botao a{
+   #botao a, #azul, #horizontal1 h2{
 
       font-size: 15px;
   }
    
+}@media screen and (max-width:996px) {
+   
+   p,  #quadro-vermelho li, li, p b,  #quadro p, #quadro-vermelho p {
+      font-size:10px;
+  }
+  #botao a,#azul, #horizontal1 h2{
+
+     font-size: 12px;
+ }
+  
 }

@@ -141,12 +141,31 @@
  
 @media screen and (max-width:996px) {
    
-    p,  #quadro-vermelho li, li{
-       font-size:16px;
+    p,  #quadro-vermelho li,#horizontal1 p, li{
+      font-size: 14px;
+       font-size:13px;
    }
    #botao a{
 
-      font-size: 15px;
+      font-size: 12px;
   }
+  #horizontal1 h2, #quadro h3,  #quadro-vermelho h3 ,  #quadro-branco h3 {
+
+   font-size: 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
    
+   p,  #quadro-vermelho li, li{
+      font-size:10px;
+  }
+  #botao a{
+
+     font-size: 10px;
+ }
+ #horizontal1 h2, #quadro h3,  #quadro-vermelho h3,  #quadro-branco h3 {
+
+   font-size: 13px;
+  }
 }

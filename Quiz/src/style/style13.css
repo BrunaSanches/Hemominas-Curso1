@@ -92,45 +92,45 @@ input[type="checkbox"] {
 
 
 #checkbox1:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox2:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox3:checked + label {
-    color: #C00000;
+    color: #2F5597;
 }
 #checkbox4:checked + label {
-    color: #C00000;
+    color: #2F5597;
 }
 
 #checkbox5:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox6:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox7:checked + label {
-    color:  #C00000;
+    color: #2F5597;
 }
 #checkbox8:checked + label {
-    color:  #C00000;
+    color: #2F5597;
 }
 
 #checkbox9:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox10:checked + label {
-    color: green;
+    color: #2F5597;
 }
 #checkbox11:checked + label {
-    color:  #C00000;
+    color: #2F5597;
 }
 #checkbox12:checked + label {
-    color:  #C00000;
+    color: #2F5597;
 }
  button{
-    width:15%;
+    width:20%;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -152,11 +152,26 @@ button:hover{
      font-size: 16px;
  }
   
- #vermelho{
+ #vermelho, .questao label{
      font-size: 14px;
  }
- #botao a{
+ #botao a, button{
  
      font-size: 15px;
+ }
+ }
+
+ @media screen and (max-width:768px) {
+    p{
+ 
+     font-size: 10px;
+ }
+  
+ #vermelho{
+     font-size: 10px;
+ }
+ #botao a, button, .questao label{
+ 
+     font-size: 12px;
  }
  }

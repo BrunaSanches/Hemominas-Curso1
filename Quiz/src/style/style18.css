@@ -148,22 +148,34 @@
    height: 50vh;
 }
 
-
 @media screen and (max-width:996px) {
    
-    #direita #p, #esquerda #p{
-       font-size:13px;
-   }
-   p{
-      font-size: 14px;
-   }
-   #botao a{
-
-      font-size: 15px;
+   #direita #p, #esquerda #p, #centro p, p b{
+      font-size:13px;
   }
   #direita img, #esquerda img{
-   width:70%;
-   height: 50vh;
+   width: 80%;
+   height: 70vh;
 }
-   
+  
+#botao a{
+
+   font-size: 15px;
+}
+}
+
+@media screen and (max-width:768px) {
+  
+   #direita #p, #esquerda #p, #centro p, p b{
+      font-size:10px;
+  }
+  #direita img, #esquerda img{
+   width: 80%;
+   height: 70vh;
+}
+  
+#botao a{
+
+   font-size: 12px;
+}
 }

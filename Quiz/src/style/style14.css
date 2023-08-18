@@ -128,3 +128,19 @@ ul{
     }
 
 }
+@media screen and (max-width:768px) {
+ 
+    #quadro p, #quadro li{
+   
+       font-size: 10px;
+       }
+   #botao a{
+   
+       font-size: 12px;
+   }
+   #acima p{
+   
+       font-size: 11px;
+       }
+   
+   }

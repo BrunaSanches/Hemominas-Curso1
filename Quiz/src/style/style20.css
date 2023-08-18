@@ -147,3 +147,19 @@ ul{
     }
 
 }
+@media screen and (max-width:768px) {
+ 
+    #quadro p, #quadro li{
+   
+       font-size: 10px;
+       }
+   #botao a{
+   
+       font-size: 10px;
+   }
+   #acima p{
+   
+       font-size: 10px;
+       }
+   
+   }
