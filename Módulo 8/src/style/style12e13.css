@@ -59,7 +59,13 @@
     backface-visibility: hidden;
 
   }
-  
+  #esquerda, #direita{
+    width: 50%;
+    height: 95vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
   .back {
     transform: rotateY(180deg);
   }
@@ -70,7 +76,7 @@
     font-size:15px;
   }
   .front img, .back img{
-    width: 90%;
+    width: 95%;
 	height: 95vh;
   }
 @keyframes fadeInAnimation {
