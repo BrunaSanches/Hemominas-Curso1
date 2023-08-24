@@ -16,12 +16,12 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Introdução</title>
+					<title>Apresentação Módulo X</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Apresentação Módulo X</title>
+					<title>Introdução</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
@@ -117,13 +117,13 @@
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/pagina2.html">
-		   <file href="src/pagina2.html"/>
+		<resource identifier="RES_2" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
+		   <file href="src/pagina3.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina3.html">
-		   <file href="src/pagina3.html"/>
+		<resource identifier="RES_3" type="webcontent" adlcp:scormtype="sco" href="src/pagina2.html">
+		   <file href="src/pagina2.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 		

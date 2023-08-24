@@ -16,12 +16,12 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_2" identifierref="RES_2" isvisible="true">
-					<title>Iniciando Módulo VI</title>
+					<title>Apresentação Módulo VI</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_1</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_3" identifierref="RES_3" isvisible="true">
-					<title>Apresentação Módulo VI</title>
+					<title>Introdução</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_2</adlcp:prerequisites>
 				</item>
 
