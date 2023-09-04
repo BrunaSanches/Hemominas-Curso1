@@ -95,19 +95,11 @@ input[type="checkbox"] {
     display: none;
 }
 
+input[type="checkbox"]:checked + .elemento {
+    color: #2F5597;
+  }
 
-#checkbox1:checked + label {
-    color: #2F5597;
-}
-#checkbox2:checked + label {
-    color: #2F5597;
-}
-#checkbox3:checked + label {
-    color: #2F5597;
-}
-#checkbox4:checked + label {
-    color: #2F5597;
-}
+
 
 #checkbox5:checked + label {
     color:#C00000;

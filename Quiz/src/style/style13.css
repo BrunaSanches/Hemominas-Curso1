@@ -91,44 +91,11 @@ input[type="checkbox"] {
 }
 
 
-#checkbox1:checked + label {
+input[type="checkbox"]:checked + .elemento {
     color: #2F5597;
-}
-#checkbox2:checked + label {
-    color: #2F5597;
-}
-#checkbox3:checked + label {
-    color: #2F5597;
-}
-#checkbox4:checked + label {
-    color: #2F5597;
-}
+  }
 
-#checkbox5:checked + label {
-    color: #2F5597;
-}
-#checkbox6:checked + label {
-    color: #2F5597;
-}
-#checkbox7:checked + label {
-    color: #2F5597;
-}
-#checkbox8:checked + label {
-    color: #2F5597;
-}
 
-#checkbox9:checked + label {
-    color: #2F5597;
-}
-#checkbox10:checked + label {
-    color: #2F5597;
-}
-#checkbox11:checked + label {
-    color: #2F5597;
-}
-#checkbox12:checked + label {
-    color: #2F5597;
-}
  button{
     width:20%;
     display: flex;

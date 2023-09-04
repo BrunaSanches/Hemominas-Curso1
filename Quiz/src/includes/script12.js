@@ -1,19 +1,11 @@
 
   document.getElementById("reiniciar").addEventListener("click", function() {
-    var checkboxes = document.getElementsByName("opcao");
-    for (var i = 0; i < checkboxes.length; i++) {
-      checkboxes[i].checked = false;
-      document.getElementById("correta1").style.color="#404040";
-      document.getElementById("correta2").style.color="#404040";
-      document.getElementById("incorreta1").style.color="#404040";
-      document.getElementById("incorreta2").style.color="#404040";
-    }
+    location.reload();
   });
   
   const checkboxes = document.getElementsByName("opcao");
- 
-  
-  
+
+
   
   for (let i = 0; i < checkboxes.length; i++) {
     checkboxes[i].addEventListener("change", function() {
@@ -47,10 +39,7 @@
   // pergunta 2
 
   document.getElementById("reiniciar2").addEventListener("click", function() {
-    var checkboxes = document.getElementsByName("opcao1");
-    for (var x = 0; x < checkboxes.length; x++) {
-      checkboxes[x].checked = false;
-    }
+    location.reload();
   });
   
   const checkboxes2 = document.getElementsByName("opcao1");
