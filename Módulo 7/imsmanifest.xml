@@ -56,7 +56,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_10" identifierref="RES_10" isvisible="true">
-					<title>Recomendações do uso de Ácido Tranexâmico </title>
+					<title>Algumas indicações de uso segundo a Literatura</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_9</adlcp:prerequisites>
 				</item>
 
@@ -81,7 +81,7 @@
 				</item>	
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Sumário</title>
+					<title>Dados de Literatura</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
 				</item>
 
@@ -101,7 +101,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_19" identifierref="RES_19" isvisible="true">
-					<title>Doses do Ácido Tranexâmico</title>
+					<title>Informações complementares sobre o uso dos antifibrinolíticos</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_18</adlcp:prerequisites>
 				</item>
 
