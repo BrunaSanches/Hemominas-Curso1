@@ -1,103 +1,298 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-.home{
-    width: 100%;
-    height: 100vh;
+/* Default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Container */
+  #container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+  }
+  
+  /* Home section */
+  #home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    background-color:#fff;
+	justify-content: center;
+	align-items: center;
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+  }
+  
+  /* Flip book */
+  .flip-book {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	perspective: 1500px;
+	border: 1px #0000;
+    
+  
+  }
+  
+  .flip {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+  }
+  
+  .front {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-
-}
-img{
-    width: 100%;
-    height: 100vh;
-    opacity: 2;
-}
-.palavras{
-    width:100%;
-    height:100vh;
-    display: flex;
     justify-content: center;
-    align-items:center;
+
+  }
+  .conversa{
+    width: 90%;
+    height:90vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
     position: absolute;
+
+}
+.conversa1{
+  width: 90%;
+  height:90vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: absolute;
+
 }
 
-#direita p{
-    text-align: justify;
-    font-size:20px;
-    color: #595959;
-    font-weight:400;
-    padding-left: 2em;
-    padding-right: 2em;
+/* LIVRO */
+
+.check{
+	display: none;
 }
-#esquerda p{
+.book{
+   
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+/* Next and back buttons */
+.next-btn,
+.back-btn {
+  position: absolute;
+  bottom: 13px;
+  cursor: pointer;
+  color: white;
+  background-color: #0096bb;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.next-btn {
+  right: 13px;
+}
+
+.back-btn {
+  left: 13px;
+}
+
+
+
+#p1{
+	z-index: 3;
+}
+#p2{
+	z-index:2;
+}
+#p3{
+	z-index:1;
+}
+
+
+
+
+
+#c1:checked ~ .flip-book #p1{
+	
+	z-index: 1;
+}
+#c2:checked ~ .flip-book #p2{
+
+	z-index: 2;
+}
+#c3:checked ~ .flip-book #p3{
+
+	z-index: 3;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
  
-        text-align: justify;
-        font-size:20px;
-        color: #595959;
-        font-weight:600;
 
+
+
+
+button {
+	background-color: #0096bb;
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+button:hover{
+	transform: translateX(7px) scale(1.2);
 }
 
 
-h2{
-    color:#595959;
-    font-size:28px;
-    font-weight:bold;
+
+  /* Pagination */
+  input[type="radio"]:checked ~ .flip-book .front {
+	z-index: 1;
+  }
+  input[type="radio"] ~ .flip-book .front {
+	position: absolute;
+	width: 100%;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: flex;
+  }
+  
+  
+  /* Animation */
+  @keyframes fadeInAnimation {
+	0% {
+	  opacity: 0.2;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+/* pagina 15 */
+#boneco1{
+   
+        width: 70%;
+        height:100vh;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
+    
+  
+}
+#boneco2{
+   
+    width:20%;
+    height:70vh;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+
 }
 #esquerda{
-    width:50%;
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-  
-}
-#direita{
-    width:50%;
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-
-}
-#texto{
-    width:80%;
-    height: 70vh;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    flex-direction: column;
-}
-#esquerda img{
-    width:90%;
-    height:85vh;
+    width: 50%;
+    height: 90vh;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
 }
 #esquerda-acima{
-    width:26%;
-    height:60vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items:flex-end;
-    flex-direction: column;
+    width: 80%;
+    height: 45vh;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+p em{
+  font-weight: 400;
+}
+#esquerda-acima p{
+    color:#595959;
+    font-size: 18px;
+    font-weight: bold;
+}
+.quadro{
+    width:90%;
+    height: 70vh;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
+#texto{
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#texto p, #texto li{
+    color: #595959;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+
+}
 
 @media screen and (max-width:996px) {
+    
    
-    #esquerda p{
+    #texto p, #texto li{
         font-size:15px;
     }
-    #direita p{
-        font-size:17px;
+    #esquerda-acima p{
+        font-size: 15px;
     }
-  
+    td{
+        font-size:13px;
+    }
+    #boneco1{
+   
+      width: 70%;
+      height: 90vh;
+    }
+
+
     
 }
