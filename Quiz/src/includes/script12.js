@@ -1,6 +1,6 @@
 
   document.getElementById("reiniciar").addEventListener("click", function() {
-    location.reload();
+    window.location.reload();
   });
   
   const checkboxes = document.getElementsByName("opcao");
@@ -39,7 +39,7 @@
   // pergunta 2
 
   document.getElementById("reiniciar2").addEventListener("click", function() {
-    location.reload();
+    window.location.reload();
   });
   
   const checkboxes2 = document.getElementsByName("opcao1");

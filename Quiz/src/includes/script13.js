@@ -1,6 +1,6 @@
 
   document.getElementById("reiniciar").addEventListener("click", function() {
-    location.reload();
+    window.location.reload();
   });
   
   const checkboxes = document.getElementsByName("opcao");
@@ -37,7 +37,7 @@
   // pergunta 2
 
   document.getElementById("reiniciar2").addEventListener("click", function() {
-    location.reload();
+    window.location.reload();
   });
   
   const checkboxes2 = document.getElementsByName("opcao1");
@@ -79,7 +79,7 @@
   // pergunta 3
 
   document.getElementById("reiniciar3").addEventListener("click", function() {
-    location.reload();
+    window.location.reload(true);
   });
   
   const checkboxes3 = document.getElementsByName("opcao2");
@@ -105,13 +105,13 @@
       else if(checkboxes3[0].checked && checkboxes3[3].checked){
         alert("Apenas uma resposta está correta! \n\n Clique no botão REINICIAR e tente novamente!");
       }
-      else if(checkboxe3[1].checked && checkboxes3[3].checked){
+      else if(checkboxes3[1].checked && checkboxes3[3].checked){
         alert("Apenas uma resposta está correta! \n\n Clique no botão REINICIAR e tente novamente!");
       }
       else if(checkboxes3[1].checked && checkboxes3[2].checked){
         alert("Apenas uma resposta está correta! \n\n Clique no botão REINICIAR e tente novamente!");
       }
-     
+    
 
 
     
