@@ -41,7 +41,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_7" identifierref="RES_7" isvisible="true">
-					<title>Vídeo - Quando é necessário o uso de Agentes Antifibrinolíticos?</title>
+					<title>Quando é necessário o uso de Agentes Antifibrinolíticos?</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_6</adlcp:prerequisites>
 				</item>
 
