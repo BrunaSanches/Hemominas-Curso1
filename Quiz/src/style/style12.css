@@ -18,9 +18,9 @@
 }
 #container{
     width:70%;
-    height:100vh;
+    height:50vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items:flex-start;
     position: absolute;   
     flex-direction: column;
@@ -69,7 +69,7 @@
 
  .questao{
     width: 50%;
-    height:20vh;
+    height:30vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -94,10 +94,6 @@
 input[type="checkbox"] {
     display: none;
 }
-
-input[type="checkbox"]:checked + .elemento {
-    color: #2F5597;
-  }
 
 
 
