@@ -36,7 +36,7 @@ img{
 }
 
 #esquerda{
-    width:70%;
+    width:80%;
     height: 90vh;
     display: flex;
     justify-content:space-evenly;
@@ -77,6 +77,93 @@ img{
        font-size:16px;
        
        }
+       
+#linha {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+#checkbox1:checked + label + .texto-resposta,
+#checkbox2:checked + label + .texto-resposta,
+#checkbox3:checked + label + .texto-resposta,
+#checkbox4:checked + label + .texto-resposta,
+#checkbox5:checked + label + .texto-resposta,
+#checkbox6:checked + label + .texto-resposta,
+#checkbox7:checked + label + .texto-resposta,
+#checkbox8:checked + label + .texto-resposta
+ {
+    display: block;
+   
+}
+#texto1,
+        #texto2,
+        #texto3,
+        #texto4,
+        #texto5,
+        #texto6,
+        #texto7,
+        #texto8{
+            display: none;
+            color: #404040;
+        
+        }
+
+input {
+    display: none;
+}
+
+input.check[type="checkbox"] {
+    display: none;
+}
+
+.hover label {
+    cursor: pointer;
+}
+.hover{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.texto-resposta {
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    font-size: 14px;
+    color: #404040;
+    padding-left: 1em;
+    margin-top: 5px;
+    font-weight: bold;
+   
+}
+ 
+input.check[type="checkbox"]:checked + label {
+    background-color:#2F5597;
+    border-color:#2F5597;
+  }
+label {
+ 
+    border: 2px solid #A6A6A6;
+    background-color: #A6A6A6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label:hover {
+    background-color: #2F5597;
+    border-color:#2F5597;
+}
 
 @media screen and (max-width:996px) {
    
@@ -86,12 +173,15 @@ img{
     h2{
         font-size:18px;
     }
+    label, .texto-resposta{
+        font-size:12px;
+    }
    
   
-    
+}
     @media screen and (max-width:768px) {
    
-        p, li{
+        p, li, label, .texto-resposta{
             font-size:10px;
         }
         h2{
