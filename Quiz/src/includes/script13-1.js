@@ -17,6 +17,7 @@ for (let i = 0; i < checkboxes.length; i++) {
       alert("Resposta Incorreta! \n Clique no botão REINICIAR e tente novamente!");
       document.getElementById("incorreta1").style.color="red";
       
+      
     }
     else if(checkboxes[2].checked){
       alert("Resposta Incorreta! \n Clique no botão REINICIAR e tente novamente!");
@@ -44,12 +45,13 @@ for (let x = 0; x < checkboxes2.length; x++) {
   checkboxes2[x].addEventListener("change", function() {
 
     if (checkboxes2[0].checked) {
-      alert("Parabéns, essa é a resposta correta 30-40 minutos para 02 ampolas dissolvidas em 200 ml!");
-      document.getElementById("correta3").style.color="green";
+      alert("Resposta Incorreta! \n\n Clique no botão REINICIAR e tente novamente!");
+
+      document.getElementById("incorreta4").style.color="red";
 
           }else if(checkboxes2[1].checked){
-      alert("Resposta Incorreta! \n\n Clique no botão REINICIAR e tente novamente!");
-      document.getElementById("incorreta4").style.color="red";
+            alert("Parabéns, essa é a resposta correta 30-40 minutos para 02 ampolas dissolvidas em 200 ml!");
+            document.getElementById("correta3").style.color="green";
     
     }
     else if(checkboxes2[2].checked){
