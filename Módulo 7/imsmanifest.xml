@@ -66,34 +66,36 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_12" identifierref="RES_12" isvisible="true">
-					<title>Hemorragia pós parto (PPH) </title>
+					<title>Uso do Ácido Tranexâmico em cirurgia ortopédica de grande porte</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_11</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_13" identifierref="RES_13" isvisible="true">
-					<title>Trauma</title>
+					<title>Hemorragia pós parto (PPH) </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_12</adlcp:prerequisites>
 				</item>
 
 				<item identifier="MOD_1_SCO_14" identifierref="RES_14" isvisible="true">
-					<title>A Aplicação Clínica</title>
+					<title>Trauma</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_13</adlcp:prerequisites>
-				</item>	
+				</item>
 
 				<item identifier="MOD_1_SCO_15" identifierref="RES_15" isvisible="true">
-					<title>Dados de Literatura</title>
+					<title>A Aplicação Clínica</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_14</adlcp:prerequisites>
-				</item>
+				</item>	
 
 				<item identifier="MOD_1_SCO_16" identifierref="RES_16" isvisible="true">
-					<title>Regime Terapêutico </title>
+					<title>Dados de Literatura</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_15</adlcp:prerequisites>
 				</item>
-			
+
 				<item identifier="MOD_1_SCO_17" identifierref="RES_17" isvisible="true">
-					<title>Uso do Ácido Tranexâmico em cirurgia ortopédica de grande porte</title>
+					<title>Regime Terapêutico </title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_16</adlcp:prerequisites>
 				</item>
+			
+				
 
 				<item identifier="MOD_1_SCO_18" identifierref="RES_18" isvisible="true">
 					<title>Apresentações do Ácido Tranexâmico disponíveis no Brasil</title>
@@ -200,36 +202,37 @@
 		   <file href="src/pagina8.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
+		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
+		   <file href="src/pagina19.html"/>
+		   <dependency identifierref="INC"/>
+		</resource>
 
-		<resource identifier="RES_12" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
+		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina9.html">
 		   <file href="src/pagina9.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_13" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
+		<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina10.html">
 		   <file href="src/pagina10.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-			<resource identifier="RES_14" type="webcontent" adlcp:scormtype="sco" href="src/pagina11a16.html">
+			<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina11a16.html">
 		   <file href="src/pagina11a16.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_15" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
+		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina17.html">
 		   <file href="src/pagina17.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_16" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
+		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina18.html">
 		   <file href="src/pagina18.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
-		<resource identifier="RES_17" type="webcontent" adlcp:scormtype="sco" href="src/pagina19.html">
-		   <file href="src/pagina19.html"/>
-		   <dependency identifierref="INC"/>
-		</resource>
+		
 
 		<resource identifier="RES_18" type="webcontent" adlcp:scormtype="sco" href="src/pagina20.html">
 		   <file href="src/pagina20.html"/>
