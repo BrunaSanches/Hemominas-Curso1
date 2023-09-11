@@ -1,68 +1,24 @@
+function verificarRespostas1() {
+  var tabela = document.getElementById("respostas");
+  var respostas = tabela.getElementsByClassName("resposta");
+  var corretas = 0;
+  var respostasCorretas1 = [
+    ["1", "2", "2","1", "1", "2", "1", "2" ]
+  ];
 
-  document.getElementById("reiniciar").addEventListener("click", function() {
-    window.location.reload();
-  });
-  
-  const checkboxes = document.getElementsByName("opcao");
-  
-  
-  
-  for (let i = 0; i < checkboxes.length; i++) {
-    checkboxes[i].addEventListener("change", function() {
-      if (checkboxes[0].checked) {
-        alert("Parabéns, essa é a resposta correta para 01 ampola por dose!");
-        document.getElementById("correta1").style.color="green";
- 
-      }else if(checkboxes[1].checked){
-        alert("Resposta Incorreta! \n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta1").style.color="red";
-        
-      }
-      else if(checkboxes[2].checked){
-        alert("Resposta Incorreta! \n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta2").style.color="red";
-      }
-      else if(checkboxes[3].checked){
-        alert("Resposta Incorreta! \n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta3").style.color="red";
-      }
-    
-     
-    });
+  for (var i = 0; i < respostas.length; i++) {
+    var resposta = respostas[i].value;
+    var linha = Math.floor(i / 8);
+    var coluna = i % 8;
+
+    if (resposta === respostasCorretas1[linha][coluna]) {
+      respostas[i].style.backgroundColor = "#cfc"; // Marcar como correta
+      corretas++;
+    } else {
+      respostas[i].style.backgroundColor = "#f99"; // Marcar como incorreta
+    }
   }
-  // pergunta 2
 
-  document.getElementById("reiniciar2").addEventListener("click", function() {
-    window.location.reload();
-  });
-  
-  const checkboxes2 = document.getElementsByName("opcao1");
-  
-  
-  
-  for (let x = 0; x < checkboxes2.length; x++) {
-    checkboxes2[x].addEventListener("change", function() {
+  alert("Você acertou " + corretas + " respostas.");
+}
 
-      if (checkboxes2[0].checked) {
-        alert("Parabéns, essa é a resposta correta para 02 ampolas por dose!");
-        document.getElementById("correta3").style.color="green";
-
-            }else if(checkboxes2[1].checked){
-        alert("Resposta Incorreta! \n\n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta4").style.color="red";
-      
-      }
-      else if(checkboxes2[2].checked){
-        alert("Resposta Incorreta! \n\n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta5").style.color="red";
-      }
-      else if(checkboxes2[3].checked){
-        alert("Resposta Incorreta! \n\n Clique no botão REINICIAR e tente novamente!");
-        document.getElementById("incorreta6").style.color="red";
-      }
-    
-     
-  
- 
-    });
-  }

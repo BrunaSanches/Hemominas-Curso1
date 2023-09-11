@@ -28,7 +28,7 @@ img{
     width:75%;
     height:80vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: self-start;
 
     flex-direction: column;
