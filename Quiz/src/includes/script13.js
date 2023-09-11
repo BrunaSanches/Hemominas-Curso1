@@ -22,3 +22,7 @@ function verificarRespostas1() {
   alert("Você acertou " + corretas + " respostas.");
 }
 
+
+document.getElementById("reiniciar").addEventListener("click", function() {
+  window.location.reload();
+});
