@@ -117,7 +117,7 @@
 				</item>
 
 				<item identifier="MOD_1_SCO_22" identifierref="RES_22" isvisible="true">
-					<title>Fe IV contra indicado na infecção?</title>
+					<title>Informações Adicionais</title>
 					<adlcp:prerequisites type="aicc_script">MOD_1_SCO_21</adlcp:prerequisites>
 				</item>
 			
